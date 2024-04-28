@@ -1,0 +1,51 @@
+.headpara{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #585858;
+}
+.subHead{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 18px;
+    font-weight: normal;
+    letter-spacing: 0.00rem;
+    line-height: 1.55;
+    text-transform: none;
+    color: #585858;
+    text-align: center;
+}
+
+.img-logo{
+    border-radius: 98px;
+   
+    transition: transform 1s ease-in-out;
+}
+
+.img-logo:hover{
+    transform: translateY(-15px);
+}
+.bold-para{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #585858;
+}
+
+.example-tree-progress-bar {
+    margin-left: 30px;
+  }
+  .mat-tree {
+    
+  background-color: #d78b3d00 !important;
+  }
+.para {
+    color: #585858;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #585858;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

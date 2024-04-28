@@ -1,0 +1,108 @@
+.dashboardParent{
+    position: relative;
+    height: 100%;
+    background-image: url('../../../assets/pexels-tirachard-kumtanom-733854.jpg');
+    /* Controlling background size */
+    background-size: cover; /* or contain, auto, etc. */
+    
+    /* Controlling background position */
+    background-position: center center; /* or specific coordinates */
+    
+    /* Controlling background repeat */
+    background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat, etc. */
+    
+    /* Controlling background attachment */
+    background-attachment: fixed; /* or scroll */
+    .sub-footer{
+        position: absolute;
+        bottom: 0;
+        color: #585858;
+        background-color: #e0e0ed00;
+        height: 25rem;
+        .paraHead{
+            color: #585858;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 18px;
+        }
+    }
+}
+.typewriter {
+    overflow: hidden;
+    border-right: 0.15em solid orange; /* Change the color and size of the cursor */
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+ h1 .youtube{
+    color: red($color: #be0e0e) !important;
+}
+h1 .insta{
+    color: rgb(240, 27, 126);
+}
+h1 .TeleGram{
+    color: rgb(14, 128, 221);
+}
+
+.dashboard-body{
+    height: calc(100vh - 40px);
+   
+    background-image: url('../../../assets/pexels-tirachard-kumtanom-733854.jpg');
+  /* Controlling background size */
+  background-size: cover; /* or contain, auto, etc. */
+  
+  /* Controlling background position */
+  background-position: center center; /* or specific coordinates */
+  
+  /* Controlling background repeat */
+  background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat, etc. */
+  
+  /* Controlling background attachment */
+  background-attachment: fixed; /* or scroll */
+}
+.card{
+    height: 15rem;
+}
+
+.example-card {
+    max-width: 400px;
+    height: 600px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  img:hover{
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:20px; top:0px;}
+    50%  {background-color:blue; left:20px; top:20px;}
+    75%  {background-color:green; left:0px; top:20px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }

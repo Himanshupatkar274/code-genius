@@ -1,0 +1,473 @@
+[
+    {
+      "question": "What is Angular?",
+      "firstOption": "A server-side programming language",
+      "secondOption": "A front-end JavaScript framework",
+      "thirdOption": "A database management system",
+      "fourthOption": "A styling language for HTML",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of Angular CLI?",
+      "firstOption": "To create and manage Angular projects",
+      "secondOption": "To design user interfaces",
+      "thirdOption": "To handle server-side operations",
+      "fourthOption": "To manage databases",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the Angular decorator used for?",
+      "firstOption": "To add metadata to a class",
+      "secondOption": "To style HTML elements",
+      "thirdOption": "To define database schemas",
+      "fourthOption": "To create server-side routes",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of ngIf directive in Angular?",
+      "firstOption": "To define interfaces",
+      "secondOption": "To create conditional content",
+      "thirdOption": "To handle HTTP requests",
+      "fourthOption": "To loop through arrays",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is two-way data binding in Angular?",
+      "firstOption": "A method to bind data from the server to the client",
+      "secondOption": "A mechanism to update the model and view simultaneously",
+      "thirdOption": "A way to bind data only in one direction",
+      "fourthOption": "A feature to bind data from the client to the server",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is an Angular module?",
+      "firstOption": "A server-side script",
+      "secondOption": "A client-side script",
+      "thirdOption": "A collection of related components, directives, services, and pipes",
+      "fourthOption": "A styling module for HTML",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the purpose of ngFor directive in Angular?",
+      "firstOption": "To create forms",
+      "secondOption": "To handle HTTP requests",
+      "thirdOption": "To loop through arrays",
+      "fourthOption": "To define interfaces",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is Angular Ivy?",
+      "firstOption": "A programming language",
+      "secondOption": "A server-side framework",
+      "thirdOption": "A compilation and rendering pipeline in Angular",
+      "fourthOption": "A database management system",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the purpose of Angular services?",
+      "firstOption": "To define styles for components",
+      "secondOption": "To handle HTTP requests and share data between components",
+      "thirdOption": "To create user interfaces",
+      "fourthOption": "To manage server-side operations",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is Angular interpolation?",
+      "firstOption": "A way to define interfaces",
+      "secondOption": "A mechanism to bind properties between components",
+      "thirdOption": "A syntax to embed expressions in templates",
+      "fourthOption": "A database management system",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is Angular CLI command to generate a new component?",
+      "firstOption": "ng generate component",
+      "secondOption": "ng create component",
+      "thirdOption": "ng build component",
+      "fourthOption": "ng component",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is Angular directive?",
+      "firstOption": "A way to style HTML elements",
+      "secondOption": "A mechanism to bind data",
+      "thirdOption": "A class used to define metadata",
+      "fourthOption": "A marker on a DOM element that tells Angular to do something to that DOM element",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is Angular dependency injection?",
+      "firstOption": "A way to inject CSS styles into components",
+      "secondOption": "A method to inject data from the server",
+      "thirdOption": "A mechanism to inject services into components",
+      "fourthOption": "A database management system",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the purpose of the Angular router?",
+      "firstOption": "To create forms",
+      "secondOption": "To handle HTTP requests",
+      "thirdOption": "To define interfaces",
+      "fourthOption": "To navigate between views and share data between components",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is Angular ngClass directive used for?",
+      "firstOption": "To define classes for a component",
+      "secondOption": "To create forms",
+      "thirdOption": "To handle HTTP requests",
+      "fourthOption": "To loop through arrays",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is Angular ngStyle directive used for?",
+      "firstOption": "To handle HTTP requests",
+      "secondOption": "To create forms",
+      "thirdOption": "To loop through arrays",
+      "fourthOption": "To apply styles dynamically to an element",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is Angular ngModel directive used for?",
+      "firstOption": "To define interfaces",
+      "secondOption": "To handle HTTP requests",
+      "thirdOption": "To loop through arrays",
+      "fourthOption": "To create two-way data binding on form elements",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the purpose of Angular pipes?",
+      "firstOption": "To define routes in an application",
+      "secondOption": "To transform data in the template",
+      "thirdOption": "To create forms",
+      "fourthOption": "To loop through arrays",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is Angular ngSubmit directive used for?",
+      "firstOption": "To create forms",
+      "secondOption": "To loop through arrays",
+      "thirdOption": "To handle HTTP requests",
+      "fourthOption": "To bind an event to the submit action of a form",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the Angular TestBed?",
+      "firstOption": "A testing utility in Angular for configuring and creating an Angular testing module",
+      "secondOption": "A database management system",
+      "thirdOption": "A way to define interfaces",
+      "fourthOption": "A server-side framework",
+      "correctAnswer": "A"
+    },  {
+        "question": "Explain the concept of Angular services and why are they used?",
+        "firstOption": "Services are used for styling components",
+        "secondOption": "Services are used for dependency injection and sharing data between components",
+        "thirdOption": "Services are used for defining routes",
+        "fourthOption": "Services are used for creating forms",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is Angular lazy loading, and why would you use it?",
+        "firstOption": "Loading Angular components asynchronously",
+        "secondOption": "Loading Angular modules only when they are needed",
+        "thirdOption": "Loading data from the server on demand",
+        "fourthOption": "Loading external libraries dynamically",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Explain the Angular change detection mechanism.",
+        "firstOption": "A process to detect changes in the DOM",
+        "secondOption": "A method to change the application state",
+        "thirdOption": "A way to detect changes in the application and update the view",
+        "fourthOption": "A mechanism for handling HTTP requests",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What are Angular directives, and can you give examples of built-in directives?",
+        "firstOption": "Directives are used for defining routes",
+        "secondOption": "Directives are used for creating forms",
+        "thirdOption": "Directives are markers on a DOM element that tell Angular to do something to that element",
+        "fourthOption": "Directives are used for handling HTTP requests",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Explain the concept of Angular decorators and their use cases.",
+        "firstOption": "Decorators are used for defining routes",
+        "secondOption": "Decorators are used for dependency injection and adding metadata to a class",
+        "thirdOption": "Decorators are used for styling components",
+        "fourthOption": "Decorators are used for creating forms",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the purpose of the Angular ngIf, ngSwitch, and ngFor directives?",
+        "firstOption": "To handle HTTP requests",
+        "secondOption": "To define interfaces",
+        "thirdOption": "To loop through arrays",
+        "fourthOption": "To create conditional content, switch between cases, and iterate over collections",
+        "correctAnswer": "D"
+      },
+      {
+        "question": "Explain the Angular component lifecycle hooks.",
+        "firstOption": "A way to create components",
+        "secondOption": "Methods that allow you to tap into the lifecycle of a component, from creation to destruction",
+        "thirdOption": "A mechanism for handling HTTP requests",
+        "fourthOption": "A process to update the application state",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is Angular interpolation and how is it different from property binding?",
+        "firstOption": "Interpolation is used for binding events, while property binding is used for binding data",
+        "secondOption": "Interpolation is used for two-way data binding, while property binding is used for one-way data binding",
+        "thirdOption": "Interpolation is used for binding data to the view, while property binding is used for changing HTML attributes",
+        "fourthOption": "There is no difference; both terms refer to the same concept",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Explain Angular forms and the different types of form controls.",
+        "firstOption": "Forms are used for defining routes",
+        "secondOption": "Forms are used for creating user interfaces",
+        "thirdOption": "Forms are used for handling HTTP requests",
+        "fourthOption": "Forms are used for user input and validation, with controls like input, select, and textarea",
+        "correctAnswer": "D"
+      },
+      {
+        "question": "What is Angular routing and how does it work?",
+        "firstOption": "A way to handle HTTP requests",
+        "secondOption": "A method to define styles for components",
+        "thirdOption": "A mechanism for lazy loading modules",
+        "fourthOption": "A way to navigate between views based on the URL",
+        "correctAnswer": "D"
+      },
+      {
+        "question": "Explain Angular dependency injection and its advantages.",
+        "firstOption": "Dependency injection is a way to inject CSS styles into components",
+        "secondOption": "Dependency injection is a mechanism to inject services into components, making components more modular and reusable",
+        "thirdOption": "Dependency injection is a way to handle HTTP requests",
+        "fourthOption": "Dependency injection is a method to inject data from the server",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What are Angular pipes, and can you give examples of built-in pipes?",
+        "firstOption": "Pipes are used for handling HTTP requests",
+        "secondOption": "Pipes are used for defining routes",
+        "thirdOption": "Pipes are used for transforming data in the template",
+        "fourthOption": "Pipes are markers on a DOM element that tell Angular to do something to that element",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the purpose of Angular ngClass and ngStyle directives?",
+        "firstOption": "To loop through arrays",
+        "secondOption": "To handle HTTP requests",
+        "thirdOption": "To create forms",
+        "fourthOption": "To apply styles dynamically to an element",
+        "correctAnswer": "D"
+      },
+      {
+        "question": "How would you handle errors in an Angular application?",
+        "firstOption": "Use try-catch blocks in the component code",
+        "secondOption": "Handle errors in the server-side code",
+        "thirdOption": "Use the catchError operator in RxJS for HTTP errors",
+        "fourthOption": "Ignore errors and continue with the application flow",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Explain Angular testing and the different testing utilities provided by Angular.",
+        "firstOption": "Testing is not supported in Angular",
+        "secondOption": "Angular provides utilities like TestBed, ComponentFixture, and async for testing components, services, and asynchronous operations",
+        "thirdOption": "Testing is only applicable to server-side code",
+        "fourthOption": "Testing is done manually without any utilities",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the purpose of the Angular ngModel directive in forms?",
+        "firstOption": "To loop through arrays",
+        "secondOption": "To handle HTTP requests",
+        "thirdOption": "To define interfaces",
+        "fourthOption": "To create two-way data binding on form elements",
+        "correctAnswer": "D"
+      },
+      {
+        "question": "Explain the role of Angular ngSubmit directive in forms.",
+        "firstOption": "To loop through arrays",
+        "secondOption": "To create forms",
+        "thirdOption": "To bind an event to the submit action of a form",
+        "fourthOption": "To handle HTTP requests",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What are Angular guards and why would you use them?",
+        "firstOption": "Guards are used for styling components",
+        "secondOption": "Guards are used for handling HTTP requests",
+        "thirdOption": "Guards are used for defining routes",
+        "fourthOption": "Guards are used to control access to a route and protect routes from unauthorized users",
+        "correctAnswer": "D"
+      },  {
+        "question": "Explain Angular Universal and its use cases.",
+        "firstOption": "A server-side rendering solution for Angular applications",
+        "secondOption": "A tool for creating universal components",
+        "thirdOption": "A mechanism for handling HTTP requests",
+        "fourthOption": "A module for advanced animations",
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What is Ahead-of-Time (AOT) compilation in Angular?",
+        "firstOption": "A method to compile TypeScript code to JavaScript",
+        "secondOption": "A way to compile Angular templates during the build process",
+        "thirdOption": "A tool for optimizing HTTP requests",
+        "fourthOption": "A technique for lazy loading modules",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Explain Angular Elements and their use in non-Angular applications.",
+        "firstOption": "Angular Elements are components that can be used only in Angular applications",
+        "secondOption": "Angular Elements are reusable components that can be used in non-Angular applications",
+        "thirdOption": "Angular Elements are directives used for styling components",
+        "fourthOption": "Angular Elements are used for handling HTTP requests",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is Angular Ivy Renderer, and how does it improve performance?",
+        "firstOption": "A server-side rendering solution for Angular applications",
+        "secondOption": "A tool for creating universal components",
+        "thirdOption": "A rendering engine in Angular that improves tree-shakability and reduces bundle sizes",
+        "fourthOption": "A module for advanced animations",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Explain Angular NgZone and its use in change detection.",
+        "firstOption": "NgZone is used for defining routes",
+        "secondOption": "NgZone is a zone in Angular where change detection is triggered",
+        "thirdOption": "NgZone is a module for handling HTTP requests",
+        "fourthOption": "NgZone is used for creating forms",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the purpose of Angular schematics, and how can they be used?",
+        "firstOption": "Schematics are used for defining routes",
+        "secondOption": "Schematics are blueprints for generating or modifying code in an Angular application",
+        "thirdOption": "Schematics are used for handling HTTP requests",
+        "fourthOption": "Schematics are a tool for optimizing Angular applications",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Explain Angular reactive forms and template-driven forms.",
+        "firstOption": "Reactive forms use templates to define forms, while template-driven forms use a reactive approach",
+        "secondOption": "Reactive forms use a reactive approach, while template-driven forms use templates to define forms",
+        "thirdOption": "Both reactive forms and template-driven forms use the same approach",
+        "fourthOption": "Neither reactive forms nor template-driven forms are valid in Angular",
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What is Angular Ivy language service, and how does it benefit developers?",
+        "firstOption": "A language service for handling HTTP requests in Angular applications",
+        "secondOption": "A tool for optimizing Angular applications",
+        "thirdOption": "A language service for improved developer experience, providing better autocompletion and error checking",
+        "fourthOption": "A module for advanced animations",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Explain Angular dependency injection hierarchy.",
+        "firstOption": "There is no hierarchy in Angular dependency injection",
+        "secondOption": "Angular follows a flat hierarchy in dependency injection",
+        "thirdOption": "Angular uses a hierarchical dependency injection system, where injectors are organized in a tree-like structure",
+        "fourthOption": "Dependency injection in Angular is based on a circular hierarchy",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is Angular's use of Observables, and how are they different from Promises?",
+        "firstOption": "Observables are used for handling HTTP requests, and Promises are used for data manipulation",
+        "secondOption": "Observables are used for handling asynchronous operations and events, and they can handle multiple values over time, while Promises handle a single asynchronous value",
+        "thirdOption": "Observables are used for defining routes, and Promises are used for defining templates",
+        "fourthOption": "Observables are used for creating forms, and Promises are used for handling HTTP requests",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Explain Angular ngRx and its use in state management.",
+        "firstOption": "ngRx is a module for handling HTTP requests",
+        "secondOption": "ngRx is a state management library for Angular applications based on Redux principles",
+        "thirdOption": "ngRx is a tool for optimizing Angular applications",
+        "fourthOption": "ngRx is used for defining routes",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is Angular Zone.js, and how does it relate to change detection?",
+        "firstOption": "Zone.js is a tool for optimizing Angular applications",
+        "secondOption": "Zone.js is a module for handling HTTP requests",
+        "thirdOption": "Zone.js is a library that helps Angular track asynchronous operations and triggers change detection",
+        "fourthOption": "Zone.js is used for defining routes",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Explain Angular Material and its role in Angular applications.",
+        "firstOption": "Angular Material is a module for handling HTTP requests",
+        "secondOption": "Angular Material is a state management library",
+        "thirdOption": "Angular Material is a UI component library based on Google's Material Design principles",
+        "fourthOption": "Angular Material is a tool for optimizing Angular applications",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is Angular Web Workers, and how do they enhance performance?",
+        "firstOption": "Angular Web Workers are a tool for optimizing Angular applications",
+        "secondOption": "Angular Web Workers are used for defining routes",
+        "thirdOption": "Angular Web Workers enable parallel execution of JavaScript in the background, improving performance by offloading tasks to separate threads",
+        "fourthOption": "Angular Web Workers are a state management library",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Explain Angular Zones and their role in managing asynchronous tasks.",
+        "firstOption": "Angular Zones are used for defining routes",
+        "secondOption": "Angular Zones are a state management library",
+        "thirdOption": "Angular Zones are a module for handling HTTP requests",
+        "fourthOption": "Angular Zones provide a context for code execution and help manage asynchronous tasks in Angular applications",
+        "correctAnswer": "D"
+      },
+      {
+        "question": "What is Angular DI (Dependency Injection) decorators and how can they be used?",
+        "firstOption": "DI decorators are used for defining routes",
+        "secondOption": "DI decorators are used for styling components",
+        "thirdOption": "DI decorators are used for dependency injection and help provide metadata about the dependencies",
+        "fourthOption": "DI decorators are a tool for optimizing Angular applications",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Explain Angular ngIvy compiler, its features, and how it differs from the View Engine.",
+        "firstOption": "ngIvy is a tool for optimizing Angular applications",
+        "secondOption": "ngIvy is a compiler for Angular applications that brings improved template type-checking, reduced bundle sizes, and enhanced performance",
+        "thirdOption": "ngIvy is a module for handling HTTP requests",
+        "fourthOption": "ngIvy is a state management library",
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is Angular Universal Transfer State, and how is it used in server-side rendering?",
+        "firstOption": "Transfer State is a tool for optimizing Angular applications",
+        "secondOption": "Transfer State is a state management library",
+        "thirdOption": "Transfer State is a mechanism in Angular Universal for sharing state between the server and the client during server-side rendering",
+        "fourthOption": "Transfer State is used for defining routes",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Explain Angular reactive programming and the use of RxJS.",
+        "firstOption": "Reactive programming is a way to define routes",
+        "secondOption": "Reactive programming is a mechanism for handling HTTP requests",
+        "thirdOption": "Reactive programming is an asynchronous programming paradigm, and RxJS is a library that implements reactive programming in Angular",
+        "fourthOption": "Reactive programming is used for creating forms",
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is Angular ViewContainerRef, and how is it used in dynamic component creation?",
+        "firstOption": "ViewContainerRef is a tool for optimizing Angular applications",
+        "secondOption": "ViewContainerRef is used for defining routes",
+        "thirdOption": "ViewContainerRef is a state management library",
+        "fourthOption": "ViewContainerRef is a reference to a container where Angular dynamically inserts components",
+        "correctAnswer": "D"
+      },
+      {
+        "question": "Explain Angular micro-frontends and their benefits.",
+        "firstOption": "Micro-frontends are a module for handling HTTP requests",
+        "secondOption": "Micro-frontends are a state management library",
+        "thirdOption": "Micro-frontends are an architectural pattern where a large Angular application is divided into smaller, independent, and deployable applications",
+        "fourthOption": "Micro-frontends are used for defining routes",
+        "correctAnswer": "C"
+      }
+  ]
+  

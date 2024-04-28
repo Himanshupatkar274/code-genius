@@ -1,0 +1,483 @@
+[
+    {
+      "question": "What is JavaScript?",
+      "firstOption": "A server-side scripting language",
+      "secondOption": "A markup language",
+      "thirdOption": "A programming language that enables interactive web pages",
+      "fourthOption": "A database management system",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What are the data types in JavaScript?",
+      "firstOption": "String, Number, Boolean, Object, Null, Undefined, Symbol",
+      "secondOption": "Text, Integer, TrueFalse, Dictionary, None, NA",
+      "thirdOption": "String, Integer, Boolean, Array, Null, Undefined",
+      "fourthOption": "Character, Decimal, TrueFalse, Map, Void, Unknown",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How do you declare a variable in JavaScript?",
+      "firstOption": "var name;",
+      "secondOption": "variable name;",
+      "thirdOption": "name = var;",
+      "fourthOption": "declare name;",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the difference between 'let', 'const', and 'var' in JavaScript?",
+      "firstOption": "'let' is block-scoped, 'const' is block-scoped and cannot be reassigned, 'var' is function-scoped",
+      "secondOption": "'let' is block-scoped and cannot be reassigned, 'const' is function-scoped and can be reassigned, 'var' is block-scoped",
+      "thirdOption": "'let' is function-scoped and can be reassigned, 'const' is block-scoped and cannot be reassigned, 'var' is block-scoped",
+      "fourthOption": "'let' is function-scoped, 'const' is block-scoped and can be reassigned, 'var' is function-scoped",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How do you write comments in JavaScript?",
+      "firstOption": "// This is a single-line comment",
+      "secondOption": "<!-- This is a comment -->",
+      "thirdOption": "/* This is a comment */",
+      "fourthOption": "# This is a comment",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is a function in JavaScript?",
+      "firstOption": "A data type",
+      "secondOption": "A set of instructions that performs a specific task",
+      "thirdOption": "A loop statement",
+      "fourthOption": "A conditional statement",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How do you call a function in JavaScript?",
+      "firstOption": "call myFunction();",
+      "secondOption": "run myFunction();",
+      "thirdOption": "myFunction();",
+      "fourthOption": "execute myFunction();",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the 'DOM' in JavaScript?",
+      "firstOption": "A server-side database",
+      "secondOption": "A programming language feature",
+      "thirdOption": "Document Object Model - a programming interface for web documents",
+      "fourthOption": "A data type in JavaScript",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is an 'array' in JavaScript?",
+      "firstOption": "A data type",
+      "secondOption": "A loop statement",
+      "thirdOption": "A set of instructions that performs a specific task",
+      "fourthOption": "An ordered list of values, indexed by integers",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "How do you add an element to the end of an array in JavaScript?",
+      "firstOption": "array.push(element);",
+      "secondOption": "array.append(element);",
+      "thirdOption": "array.addToEnd(element);",
+      "fourthOption": "array.insert(element);",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is a 'for' loop in JavaScript used for?",
+      "firstOption": "Defining functions",
+      "secondOption": "Iterating over a sequence of values or the properties of an object",
+      "thirdOption": "Handling errors",
+      "fourthOption": "Executing a block of code based on a condition",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is an 'if' statement in JavaScript used for?",
+      "firstOption": "Defining functions",
+      "secondOption": "Iterating over a sequence of values or the properties of an object",
+      "thirdOption": "Handling errors",
+      "fourthOption": "Executing a block of code based on a condition",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "How do you declare and initialize an object in JavaScript?",
+      "firstOption": "var myObject = new Object();",
+      "secondOption": "var myObject = {};",
+      "thirdOption": "object myObject = new Object();",
+      "fourthOption": "object myObject = {};",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What does the '=== operator' do in JavaScript?",
+      "firstOption": "Checks if two values are equal in value and type",
+      "secondOption": "Checks if two values are equal in value but not in type",
+      "thirdOption": "Assigns a value to a variable",
+      "fourthOption": "Performs arithmetic addition",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of the 'return' statement in a function?",
+      "firstOption": "To break out of a loop",
+      "secondOption": "To skip the rest of the code in a function",
+      "thirdOption": "To end the execution of a function and specify a value to be returned",
+      "fourthOption": "To restart the execution of a loop",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is an 'event' in JavaScript?",
+      "firstOption": "A loop statement",
+      "secondOption": "A function",
+      "thirdOption": "A set of instructions",
+      "fourthOption": "An action or occurrence to which a JavaScript can respond",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "How do you add an event listener in JavaScript?",
+      "firstOption": "element.attachListener('click', myFunction);",
+      "secondOption": "element.addEventListener('click', myFunction);",
+      "thirdOption": "element.on('click', myFunction);",
+      "fourthOption": "element.listen('click', myFunction);",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'NaN' in JavaScript?",
+      "firstOption": "A keyword for declaring a new variable",
+      "secondOption": "A function for creating random numbers",
+      "thirdOption": "A value representing 'Not a Number'",
+      "fourthOption": "A data type",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "How do you check the type of a variable in JavaScript?",
+      "firstOption": "typeof variable;",
+      "secondOption": "variable.type();",
+      "thirdOption": "variable.getType();",
+      "fourthOption": "typeOf(variable);",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is 'null' in JavaScript?",
+      "firstOption": "A value representing an empty or undefined object",
+      "secondOption": "A function for creating null values",
+      "thirdOption": "A placeholder for an object that does not exist",
+      "fourthOption": "A keyword for declaring a new variable",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "How do you check if a variable is 'undefined' in JavaScript?",
+      "firstOption": "if (variable == undefined) { /* code */ }",
+      "secondOption": "if (variable === undefined) { /* code */ }",
+      "thirdOption": "if (isUndefined(variable)) { /* code */ }",
+      "fourthOption": "if (typeof variable === 'undefined') { /* code */ }",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is 'closure' in JavaScript?",
+      "firstOption": "A method for securely storing sensitive information",
+      "secondOption": "A function that has access to variables from its outer (enclosing) scope, even after the outer function has finished executing",
+      "thirdOption": "A technique for preventing code execution",
+      "fourthOption": "A data type for storing key-value pairs",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'hoisting' in JavaScript.",
+      "firstOption": "The process of moving code to the top of the file",
+      "secondOption": "The automatic lifting of variable and function declarations to the top of their containing scope during compilation",
+      "thirdOption": "The way functions elevate their execution context",
+      "fourthOption": "A method for handling asynchronous operations",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+      "firstOption": "To enable strict mode, which catches common coding errors and prevents the use of certain error-prone features",
+      "secondOption": "To disable strict mode, allowing the use of deprecated features",
+      "thirdOption": "To force the use of specific data types in the code",
+      "fourthOption": "To enforce a more relaxed syntax for better readability",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the difference between '== and '===' operators in JavaScript?",
+      "firstOption": "'==' checks for equality in value, while '===' checks for equality in value and type",
+      "secondOption": "'==' checks for equality in value and type, while '===' checks for equality in value only",
+      "thirdOption": "'==' is a strict equality operator, while '===' is a loose equality operator",
+      "fourthOption": "'==' performs type coercion, while '===' does not",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Explain the 'async/await' feature in JavaScript and its purpose.",
+      "firstOption": "An alternative syntax for defining functions",
+      "secondOption": "A technique for handling asynchronous operations more elegantly by allowing code to be written as if it were synchronous",
+      "thirdOption": "A method for declaring variables with asynchronous values",
+      "fourthOption": "A way to define event listeners",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the 'prototype' in JavaScript?",
+      "firstOption": "A method for cloning objects",
+      "secondOption": "A built-in object that contains shared properties and methods for all instances of an object type",
+      "thirdOption": "A way to define default values for function parameters",
+      "fourthOption": "An object that holds references to other objects",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How do you handle errors in JavaScript?",
+      "firstOption": "By using the 'try/catch' statement to catch and handle exceptions",
+      "secondOption": "By ignoring errors and letting the program crash",
+      "thirdOption": "By using the 'throw' statement to manually raise exceptions",
+      "fourthOption": "By using the 'finally' statement to ensure a block of code is always executed",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+      "firstOption": "'null' represents the intentional absence of any object value, while 'undefined' represents an uninitialized variable",
+      "secondOption": "'null' represents an uninitialized variable, while 'undefined' represents the intentional absence of any object value",
+      "thirdOption": "'null' and 'undefined' are interchangeable and can be used in the same context",
+      "fourthOption": "There is no difference; 'null' and 'undefined' are identical in JavaScript",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the 'Event Loop' in JavaScript and how does it work?",
+      "firstOption": "A mechanism for handling mouse and keyboard events",
+      "secondOption": "A loop that iterates over an array of events",
+      "thirdOption": "A system that ensures the non-blocking, asynchronous execution of code by continuously checking the message queue",
+      "fourthOption": "A loop that runs continuously and prevents the execution of asynchronous code",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Explain the concept of 'callback functions' in JavaScript.",
+      "firstOption": "Functions that are called automatically when a certain event occurs",
+      "secondOption": "Functions that are passed as arguments to other functions and are executed after the completion of an asynchronous operation",
+      "thirdOption": "Functions that are defined inside other functions",
+      "fourthOption": "Functions that return another function",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of the 'Map' and 'Set' objects in JavaScript?",
+      "firstOption": "'Map' is used for storing key-value pairs, while 'Set' is used for storing unique values",
+      "secondOption": "'Map' is used for creating maps of geographic locations, while 'Set' is used for creating sets of elements",
+      "thirdOption": "'Map' and 'Set' are interchangeable and serve the same purpose",
+      "fourthOption": "'Map' is used for creating sets of elements, while 'Set' is used for storing key-value pairs",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the 'localStorage' in JavaScript and how is it different from 'sessionStorage'?",
+      "firstOption": "'localStorage' is used for storing session-specific data, while 'sessionStorage' is used for storing data that persists across sessions",
+      "secondOption": "'localStorage' and 'sessionStorage' are used interchangeably and have no differences",
+      "thirdOption": "'localStorage' is used for storing data that persists across sessions, while 'sessionStorage' is used for storing session-specific data",
+      "fourthOption": "'localStorage' is a deprecated feature in JavaScript",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the purpose of the 'this' keyword in JavaScript?",
+      "firstOption": "To reference the current function",
+      "secondOption": "To reference the parent function",
+      "thirdOption": "To reference the calling object or element",
+      "fourthOption": "To reference the global object",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is 'AJAX' in JavaScript?",
+      "firstOption": "A new programming language",
+      "secondOption": "A method for declaring asynchronous functions",
+      "thirdOption": "A technique for creating interactive and dynamic web pages by making asynchronous HTTP requests",
+      "fourthOption": "A library for handling JSON data",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "How do you create and manipulate elements in the DOM using JavaScript?",
+      "firstOption": "By using the 'addNode' method",
+      "secondOption": "By using the 'createElement' method and appending elements with 'appendChild'",
+      "thirdOption": "By using the 'createNode' method",
+      "fourthOption": "By using the 'manipulateElement' function",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of the 'fetch' function in JavaScript?",
+      "firstOption": "To fetch external CSS stylesheets",
+      "secondOption": "To fetch data from external APIs using HTTP requests",
+      "thirdOption": "To fetch images and media files",
+      "fourthOption": "To fetch JavaScript libraries",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'promises' in JavaScript and their role in asynchronous programming.",
+      "firstOption": "A way to declare variables with a promise of future values",
+      "secondOption": "A mechanism for handling errors in asynchronous code",
+      "thirdOption": "Objects that represent the eventual completion or failure of an asynchronous operation, allowing for more readable and manageable code",
+      "fourthOption": "A way to define asynchronous functions",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the 'rest parameter' in JavaScript?",
+      "firstOption": "A way to specify the last parameter of a function",
+      "secondOption": "A method for handling errors in functions",
+      "thirdOption": "A parameter that represents an unknown number of arguments as an array",
+      "fourthOption": "A parameter that must be specified in every function",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "How does 'localStorage' differ from 'cookies' in web development?",
+      "firstOption": "'localStorage' has a larger storage capacity than 'cookies'",
+      "secondOption": "'localStorage' is a more secure storage option than 'cookies'",
+      "thirdOption": "'localStorage' is limited to the client-side and can only store string data, while 'cookies' can store both on the client and server-side and can store various data types",
+      "fourthOption": "'localStorage' is deprecated, and 'cookies' should be used instead",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Explain the concept of 'currying' in JavaScript and provide an example.",
+      "firstOption": "A technique for preparing and serving curry dishes using JavaScript",
+      "secondOption": "A way of transforming a function with multiple arguments into a sequence of functions with a single argument each",
+      "thirdOption": "A method for creating asynchronous functions",
+      "fourthOption": "A method for defining recursive functions",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'memoization' in JavaScript and how can it improve the performance of recursive functions?",
+      "firstOption": "A way to create a local storage for caching data",
+      "secondOption": "A technique for optimizing the performance of recursive functions by caching the results of expensive function calls and returning the cached result when the same inputs occur again",
+      "thirdOption": "A method for creating closures",
+      "fourthOption": "A way of handling errors in recursive functions",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the 'Web Workers' feature in JavaScript and how it can be used to improve the performance of web applications.",
+      "firstOption": "A technique for creating animated effects in web applications",
+      "secondOption": "A feature that allows the execution of JavaScript code in the background, separate from the main thread, to improve the performance of CPU-intensive tasks",
+      "thirdOption": "A method for handling HTTP requests in web applications",
+      "fourthOption": "A technique for creating responsive designs",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'webpack' in the context of JavaScript development?",
+      "firstOption": "A new programming language",
+      "secondOption": "A library for handling JSON data",
+      "thirdOption": "A build tool for bundling and optimizing JavaScript code and assets",
+      "fourthOption": "A testing framework for JavaScript",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Explain the concept of 'closures' and 'currying' in the context of functional programming.",
+      "firstOption": "'Closures' refer to functions that capture variables from their outer scope, while 'currying' refers to transforming a function with multiple arguments into a sequence of functions with a single argument each",
+      "secondOption": "'Closures' refer to transforming a function with multiple arguments into a sequence of functions with a single argument each, while 'currying' refers to functions that capture variables from their outer scope",
+      "thirdOption": "'Closures' and 'currying' are two terms for the same concept in functional programming",
+      "fourthOption": "'Closures' and 'currying' are unrelated concepts in functional programming",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What are 'promises' and 'async/await,' and how do they simplify asynchronous programming in JavaScript?",
+      "firstOption": "'Promises' and 'async/await' are techniques for handling errors in asynchronous code",
+      "secondOption": "'Promises' and 'async/await' are two approaches to asynchronous programming, with 'async/await' providing a more concise and readable syntax for working with promises",
+      "thirdOption": "'Promises' and 'async/await' are methods for creating asynchronous functions",
+      "fourthOption": "'Promises' and 'async/await' are two competing technologies for asynchronous programming",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the 'Observer' pattern in JavaScript and how is it implemented?",
+      "firstOption": "A method for observing and handling keyboard events",
+      "secondOption": "A design pattern where an object, known as the 'subject,' maintains a list of its dependents, called 'observers,' that are notified of any state changes",
+      "thirdOption": "A technique for creating responsive designs",
+      "fourthOption": "A method for creating animations in JavaScript",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'functional programming' in JavaScript.",
+      "firstOption": "A programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data",
+      "secondOption": "A technique for creating animated effects in JavaScript",
+      "thirdOption": "A method for handling HTTP requests in web applications",
+      "fourthOption": "A programming paradigm that focuses on creating visually appealing user interfaces",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the 'Proxy' object in JavaScript, and how can it be used to intercept and customize object behavior?",
+      "firstOption": "A method for creating animated effects in JavaScript",
+      "secondOption": "An object that allows developers to intercept and customize operations on objects, such as property access, assignment, and method invocation",
+      "thirdOption": "A feature for handling errors in JavaScript",
+      "fourthOption": "A method for creating closures",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'tree shaking' in the context of JavaScript bundlers, and how does it optimize the size of the final bundle?",
+      "firstOption": "A technique for creating responsive designs",
+      "secondOption": "A method for eliminating dead code or unused modules during the bundling process to reduce the size of the final bundle",
+      "thirdOption": "A method for handling errors in JavaScript",
+      "fourthOption": "A technique for creating animated effects in JavaScript",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'memoization' and how it can be implemented in JavaScript.",
+      "firstOption": "A method for handling errors in JavaScript",
+      "secondOption": "A technique for optimizing the performance of functions by caching the results of expensive function calls and returning the cached result when the same inputs occur again",
+      "thirdOption": "A method for creating closures",
+      "fourthOption": "A way to create a local storage for caching data",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the 'service worker' in JavaScript, and how can it be used to enable features such as offline access in web applications?",
+      "firstOption": "A method for creating animated effects in JavaScript",
+      "secondOption": "A script that runs in the background and acts as a proxy between the web application and the network, allowing for features such as offline access and push notifications",
+      "thirdOption": "A technique for creating responsive designs",
+      "fourthOption": "A way of handling HTTP requests in web applications",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'functional composition' in JavaScript and provide an example.",
+      "firstOption": "A method for creating responsive designs",
+      "secondOption": "A technique for combining simple functions to build more complex functions",
+      "thirdOption": "A method for creating animated effects in JavaScript",
+      "fourthOption": "A way to create a local storage for caching data",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'WebSocket' in JavaScript, and how does it differ from traditional HTTP communication?",
+      "firstOption": "A method for creating animated effects in JavaScript",
+      "secondOption": "A communication protocol that provides full-duplex communication channels over a single, long-lived connection, allowing for real-time data transfer",
+      "thirdOption": "A technique for creating responsive designs",
+      "fourthOption": "A way of handling HTTP requests in web applications",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What are 'Generators' in JavaScript, and how can they be used to control the flow of asynchronous code?",
+      "firstOption": "A method for creating animated effects in JavaScript",
+      "secondOption": "A special type of function that can be paused and resumed, allowing for the generation of a sequence of values over time",
+      "thirdOption": "A way to create a local storage for caching data",
+      "fourthOption": "A technique for creating responsive designs",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of the 'IIFE' pattern in JavaScript?",
+      "firstOption": "A method for creating closures",
+      "secondOption": "An Immediately Invoked Function Expression, used to create a private scope and avoid polluting the global namespace",
+      "thirdOption": "A technique for creating animated effects in JavaScript",
+      "fourthOption": "A way to create a local storage for caching data",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'WebSockets' and their advantages over traditional HTTP communication for real-time applications.",
+      "firstOption": "A method for creating animated effects in JavaScript",
+      "secondOption": "A communication protocol that provides full-duplex communication channels over a single, long-lived connection, enabling low-latency and real-time data transfer",
+      "thirdOption": "A technique for creating responsive designs",
+      "fourthOption": "A way of handling HTTP requests in web applications",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'GraphQL' and how does it differ from traditional RESTful APIs?",
+      "firstOption": "A method for creating animated effects in JavaScript",
+      "secondOption": "A query language for APIs that allows clients to request only the data they need, avoiding over-fetching and under-fetching of data",
+      "thirdOption": "A technique for creating responsive designs",
+      "fourthOption": "A way of handling HTTP requests in web applications",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'WebAssembly' (Wasm) and its role in JavaScript development.",
+      "firstOption": "A method for creating animated effects in JavaScript",
+      "secondOption": "A binary instruction format that serves as a compilation target for high-level programming languages, enabling near-native performance in web applications",
+      "thirdOption": "A technique for creating responsive designs",
+      "fourthOption": "A way of handling HTTP requests in web applications",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'Tree Shaking' in the context of JavaScript bundlers, and how does it optimize the size of the final bundle?",
+      "firstOption": "A technique for creating responsive designs",
+      "secondOption": "A method for eliminating dead code or unused modules during the bundling process to reduce the size of the final bundle",
+      "thirdOption": "A way of handling errors in JavaScript",
+      "fourthOption": "A technique for creating animated effects in JavaScript",
+      "correctAnswer": "B"
+    }
+  ]
+  

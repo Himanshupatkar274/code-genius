@@ -1,0 +1,38 @@
+.parent-body-main{
+ position: relative;
+ height: calc(100vh - 40px);
+ overflow-y: auto;
+ overflow-x: hidden;
+ background-image: url('../assets/pexels-tirachard-kumtanom-733854.jpg');
+ /* Controlling background size */
+ background-size: cover; /* or contain, auto, etc. */
+ 
+ /* Controlling background position */
+ background-position: center center; /* or specific coordinates */
+ 
+ /* Controlling background repeat */
+ background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat, etc. */
+ 
+ /* Controlling background attachment */
+ background-attachment: fixed; /* or scroll */
+ z-index: 0;
+}
+
+.parent-footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #d78b3d9e;
+    color: white;
+    border-radius: 4px;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.parent-header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.parent{
+    // overflow: hidden;
+}

@@ -1,0 +1,48 @@
+span.list-group-item+.list-group-item:hover{
+background-color: #0d6efd;
+color: white;
+}
+.group-item-action:hover{
+    background-color: #0d6efd !important;
+    color: white;
+}
+.list-group-flush>.list-group-item:hover{
+    background-color: #0d6efd !important;
+    color: white;
+}
+
+.secondpart{
+    background-image: url('../../../assets/pexels-aron-visuals-1694631.jpg');
+    background-size: cover; /* or contain, auto, etc. */
+  
+    /* Controlling background position */
+    background-position: center center; /* or specific coordinates */
+    
+    /* Controlling background repeat */
+    background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat, etc. */
+    
+    /* Controlling background attachment */
+    background-attachment: fixed; /* or scroll */
+}
+
+span img {
+    border-radius: 98px;
+}
+
+.left-body-border {
+    border: 2px solid #5600ff0f;
+}
+
+.message{
+    background-color: #198754;
+    color: white;
+    border-radius: 15px;
+    height: fit-content;
+    margin: 8px;
+    width: 400px;
+    box-shadow: 20px 20px 20px 20px #e9ecef;
+    padding: 16px;
+}
+.align-right {
+    text-align: right;
+}

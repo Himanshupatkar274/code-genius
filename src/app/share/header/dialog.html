@@ -1,0 +1,48 @@
+<div class="">
+
+
+<h2 mat-dialog-title>
+  <span style="margin-right: 16px; border-radius: 10px;"> <img src="../../../assets//logo.jpg" alt="Logo" height="50" width="50" mat-button class="img-logo" routerLink="/pages/dashboard"></span>
+  Chat Application
+ 
+</h2>
+
+<mat-dialog-content class="mat-typography">
+  <div class="row">
+    <div class="col-4">
+      <div class="d-flex flex-column align-items-stretch flex-shrink-0 ">
+      
+        <div class="list-group list-group-flush border-bottom scrollarea">
+      
+          <span  class="cursor-pointer list-group-item list-group-item-action py-3 lh-sm"  *ngFor="let user of users">
+            <div class="d-flex w-100 align-items-center justify-content-between">
+              <strong class="mb-1">{{user}}</strong>
+              <small>Wed</small>
+            </div>
+            <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.</div>
+          </span>
+    
+        </div>
+      </div>
+    </div>
+    <div class="col-8 left-body-border">
+
+      <div *ngFor="let item of messages" class="message">
+        <strong>{{item.username}}</strong>
+        <h3 class="mb-0">{{item.message}}</h3>
+      </div>
+   
+     
+    </div>
+  
+  </div>
+  
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <div class="d-flex form-group col-10">
+    <input [(ngModel)]="message" class="form-control" (keydown.enter)="sendMessage(message)" />
+    <button (click)="sendMessage(message)" (keypress.enter)="sendMessage(message)" mat-raised-button  color="warn">Send</button>
+</div>
+</mat-dialog-actions>
+
+</div>

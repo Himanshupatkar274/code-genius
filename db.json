@@ -1,0 +1,35 @@
+{
+  "user": [
+    {
+      "username": "amank@dox2u.com",
+      "password": "123456767",
+      "id": 1
+    },
+    {
+      "username": "Rohon@dox2u.com",
+      "password": "Rohan@2306",
+      "id": 2
+    },
+    {
+      "username": "Jyoti@dox2u.com",
+      "password": "Jyoti@2306",
+      "id": 3
+    },
+    {
+      "username": "Sumeet@dox2u.com",
+      "password": "sumet@123",
+      "id": 4
+    },
+    {
+      "username": "Radha@dox2u.com",
+      "password": "Aman@2306",
+      "id": 5
+    },
+    {
+      "full_name": "Aman Kumar",
+      "username": "aman@dox2u.com",
+      "password": "Aman@2308",
+      "id": 6
+    }
+  ]
+}

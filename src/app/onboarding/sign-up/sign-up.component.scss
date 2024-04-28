@@ -1,0 +1,29 @@
+.btn-class{
+    width: 50%;
+    height: 60px;
+}
+.card-parent{
+    height: 600px;
+    box-shadow: 20px 20px 20px 20px #62717629;
+    background-color: aliceblue;
+    border-radius: 8px;
+    transition: transform 1s ease-in-out;
+  }
+  .card-parent:hover{
+    transform: translateY(-15px);
+  }
+  .lovely{
+        /* Using a single background image */
+    background-image: url('../../../assets/pexels-cats-coming-707582.jpg');
+    /* Controlling background size */
+    background-size: cover; /* or contain, auto, etc. */
+
+    /* Controlling background position */
+    background-position: center center; /* or specific coordinates */
+
+    /* Controlling background repeat */
+    background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat, etc. */
+
+    /* Controlling background attachment */
+    background-attachment: fixed; /* or scroll */
+}

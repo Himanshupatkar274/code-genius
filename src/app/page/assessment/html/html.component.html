@@ -1,0 +1,41 @@
+<p class="mb-5  timepara">Time Remaining: {{formatTime}}</p>
+<div class="form_css" *ngIf="!showSubmit">
+  <form [formGroup]="quizForm" (ngSubmit)="submitForm()" >
+    <div *ngIf="questions.length > 0">
+      <div *ngIf="currentCounter < questions.length">
+        <p class="bold-para"><b>{{currentCounter + 1}}. {{ questions[currentCounter].question }}</b></p>
+        <div *ngFor="let option of optionArray[currentCounter]; let i = index">
+          <mat-radio-button [value]="i" (change)="getOption($event, i)" [checked]="isChecked(i)">
+            <p class="bold-para">{{ option }}</p>
+          </mat-radio-button>
+        </div>
+      </div>
+      <div  class="d-flex align-items-center justify-content-center h-100 w-100 flex-column" *ngIf="currentCounter === questions.length && !showSubmit">
+        <h1 class="text-success">Quiz completed!</h1>
+       
+        <div style="width: 200px;">
+          <button mat-raised-button type="submit" [disabled]="quizForm.invalid" color="warn" style="width: 100%; height: 45px;">Submit</button>
+        </div>
+      </div>
+      <div class="d-flex">
+        <div *ngIf="currentCounter > 0 && currentCounter !== questions.length" class="m-4" style="width: 200px;">
+          <button mat-raised-button type="button" (click)="previousQuestion()" color="warn" style="width: 100%; height: 45px;">Prev</button>
+        </div>
+        <div *ngIf="currentCounter < questions.length" class="m-4" style="width: 200px;">
+          <button mat-raised-button type="button" (click)="nextQuestion()" color="primary" style="width: 100%; height: 45px;">Next</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="d-flex align-items-center justify-content-center h-100 w-100 mt-5">
+
+  <div *ngIf="correctAnswerPercentage> 0 && correctAnswerPercentage>50 && showSubmit" class="mt-5">
+    <p  class="percentage_1 mb-5">{{correctAnswerPercentage}}%</p>
+    <p class="percentage_2">congratulations you have passed the Exam!</p>
+  </div>
+  <div *ngIf="correctAnswerPercentage> 0 && correctAnswerPercentage<50 && showSubmit" class="mt-5">
+    <p  class="percentage_3 mb-5">{{correctAnswerPercentage}}%</p>
+    <p class="percentage_4">Oops!! you have not passed the Exam!</p>
+  </div>
+</div>

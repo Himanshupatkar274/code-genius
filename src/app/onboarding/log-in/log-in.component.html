@@ -1,0 +1,40 @@
+ 
+ 
+ <div class="row d-flex justify-content-center align-items-center lovely" style="height: calc(100vh - 40px);" >
+  <div class="col-md-6 d-flex justify-content-center align-items-center">
+   
+    <form [formGroup]="loginForm" class="example-form" (ngSubmit)="onSubmit()"> 
+      <div class="card-parent">
+        <div class="m-5 mb-0 d-flex justify-content-center align-items-center">
+            <mat-icon style="font-size: 150px !important; height: unset; width: unset;color: #0c30ddad; ">person</mat-icon>
+        </div>
+        <h1 class="text-center heading">Login</h1>
+        <p class="m-5 mb-0 d-flex justify-content-center align-items-center" >
+            <mat-form-field appearance="outline" class="example-full-width">
+              <mat-label>Username</mat-label>
+              <input matInput placeholder="username" formControlName="username" type="text">
+              <mat-icon matSuffix *ngIf="!loginForm.get('username')?.valid"  style="color: green;cursor: pointer;">email</mat-icon>
+              <mat-icon matSuffix *ngIf="loginForm.get('username')?.valid" style="color: green;">check</mat-icon>
+              <mat-error *ngIf="loginForm.get('username')?.touched && !loginForm.get('username')?.valid" >
+                Enter correct username</mat-error>
+            </mat-form-field>
+          </p>
+          <p class="m-5 mt-0 mb-2 d-flex justify-content-center align-items-center">
+            <mat-form-field appearance="outline" class="example-full-width">
+              <mat-label>Password</mat-label>
+              <input matInput placeholder="password" formControlName="password"  [type]="pass_Click? 'text':'password'">
+              <mat-icon matSuffix *ngIf="!pass_Click" style="cursor: pointer;color: green;" (click)="eyeClick()">visibility_off</mat-icon>
+              <mat-icon matSuffix *ngIf="pass_Click" style="cursor: pointer;color: green;" (click)="eyeClick()">visibility_on</mat-icon>
+              <mat-error *ngIf="loginForm.get('password')?.touched && !loginForm.get('password')?.valid">
+                Enter correct password</mat-error>
+            </mat-form-field>
+        </p>
+        <div class="m-5 mt-0 d-flex justify-content-center align-items-center">
+          <button mat-raised-button color="warn" class="btn-class" type="submit" [disabled]="!loginForm.valid">Submit</button>
+        </div>
+
+      </div>
+        </form>
+  </div>
+ 
+ </div>

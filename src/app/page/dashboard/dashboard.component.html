@@ -1,0 +1,104 @@
+
+
+<div class="dashboardParent">
+    <div class="dashboard-body">
+        <div class="conter">
+            <div style="width: 100%;" class="m-3">
+            
+                <h1 class="text-center">
+                    Current Count: {{ count$ | async }}
+            
+                </h1>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+            
+                <div class="m-3" mat-button>
+                    <button mat-raised-button (click)="decrement()"  color="primary">Decrement</button>
+                </div>
+                
+                <div class="m-3">
+                    <button mat-raised-button (click)="increment()"  color="warn">Increment</button>
+                </div>
+                <div class="m-3">
+                    <button mat-raised-button (click)="reset()"  color="accent">Reset Counter</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-center align-items-center m-5 flex-wrap" style="column-gap: 12px; row-gap: 12px;">
+            <mat-card class="example-card" *ngFor="let item of UserCardData">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title>{{item.card_title}}</mat-card-title>
+                  <mat-card-subtitle>{{item.sub_title}}</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src={{item.image}} alt="Photo of a Shiba Inu" height="400" width="400">
+                <mat-card-content>
+                  <p class="p-3">
+                   {{item.paraText}}
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button>LIKE</button>
+                  <button mat-button>SHARE</button>
+                </mat-card-actions>
+              </mat-card>
+        </div>
+        <!-- <div class="sub-footer w-100">
+
+            <p class="mt-5 text-center text-basic paraHead">
+                JOIN US ON
+            </p>
+            <div class="d-flex justify-content-center align-items-center flex-column w-100">
+                <div class="d-flex justify-content-center align-items-center flex-row w-100 mb-5">
+                    <div class="typewriter" style="color: rgb(185, 54, 54)">
+                        <h1 class="youtube">#youtube</h1>
+                    </div>
+                    <div class="typewriter" style="color: rgb(240, 27, 126) !important;">
+                        <h1 class="insta" >#InstaGram</h1>
+                    </div>
+                    <div class="typewriter" style="color: rgb(14, 128, 221);">
+                        <h1 class="TeleGram" >#TeleGram</h1>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-row w-100">
+                    <div class="row w-100">
+                        <div class="col-4 d-flex card justify-content-center align-items-center flex-column" (click)="redirect('youtube')">
+                            <img src="../../../assets/youtube-145.svg" alt="youtube" height="60" width="60">
+                            <h3 class="youtube mb-1" style="color: rgb(185, 54, 54)">Youtube</h3>
+                            <p class="text-black">HP Code Genius</p>
+                        </div>
+                   
+                        <div class="col-4 d-flex card justify-content-center align-items-center flex-column" (click)="redirect('insta')">
+                            <img src="../../../assets/instagram-49.svg" alt="#InstaGram" height="60" width="60">
+                            <h3 class="insta mb-1" style="color: rgb(240, 27, 126) !important;">InstaGram</h3>
+                            <p class="text-black">HP Code Genius</p>
+                        </div>
+                        <div class="col-4 d-flex card justify-content-center align-items-center flex-column" (click)="redirect('telegram')">
+                            <img src="../../../assets/telegram" alt="telegram" height="60" width="60">
+                            <h3 class="TeleGram mb-1" style="color: rgb(14, 128, 221);">TeleGram</h3>
+                            <p class="text-black">HP Code Genius</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            </div> -->
+    </div>
+
+<!-- rest of the code -->
+
+
+
+
+
+
+
+
+
+<!-- rest of the code -->
+
+</div>
+
+
+

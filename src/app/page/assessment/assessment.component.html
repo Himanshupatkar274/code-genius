@@ -1,0 +1,276 @@
+<div class="parent-nav">
+  <p class="mb-0 sub-parent-nav">
+    <mat-toolbar color="primary">
+      <span>Assessment</span>
+      <span class="example-spacer"></span>
+      <button
+        mat-button
+        class="example-icon favorite-icon m-1"
+        aria-label="Example icon-button with heart icon"
+        (click)="initialProceed('html')"
+        [routerLink]="['html']"
+      >
+        <img
+          src="../../../assets/html5.svg"
+          alt="HTML"
+          height="35"
+          width="35"
+        />
+        HTML
+      </button>
+      <button
+        mat-button
+        class="example-icon"
+        aria-label="Example icon-button with share icon m-1"
+        (click)="initialProceed('css')"
+        [routerLink]="['css']"
+      >
+        <img src="../../../assets/css3.svg" alt="CSS" height="35" width="35" />
+        CSS
+      </button>
+      <button
+        mat-button
+        class="example-icon favorite-icon"
+        aria-label="Example icon-button with heart icon m-1"
+        (click)="initialProceed('angular')"
+        [routerLink]="['angular']"
+      >
+        <img
+          src="../../../assets/angular.svg"
+          alt="Angular"
+          height="35"
+          width="35"
+        />
+        Angular
+      </button>
+      <button
+        mat-button
+        class="example-icon"
+        aria-label="Example icon-button with share icon m-1"
+        (click)="initialProceed('js')"
+        [routerLink]="['js']"
+      >
+        <img
+          src="../../../assets/java-script.png"
+          alt="Node"
+          height="35"
+          width="35"
+        />
+        JavaScript
+      </button>
+      <button
+        mat-button
+        class="example-icon"
+        aria-label="Example icon-button with share icon m-1"
+        (click)="initialProceed('node')"
+        [routerLink]="['node']"
+      >
+        <img src="../../../assets/node.svg" alt="Node" height="35" width="35" />
+        Node.js
+      </button>
+    </mat-toolbar>
+  </p>
+
+  <div
+    class="row d-flex align-items-center justify-content-center flex-wrap"
+    *ngIf="showCertificate"
+  >
+    <h1 class="text-center mt-5 mb-2">Certificates:</h1>
+    <div class="col-3 common-card">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="mt-3 d-flex align-items-center justify-content-center mr-5">
+          <img src="../../../assets/html5.svg" alt="" height="60" width="60" />
+        </div>
+        <h1 class="text-center mt-3">HTML</h1>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center">
+        <button mat-fab >
+          <mat-icon>download</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="col-3 common-card">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="mt-3 d-flex align-items-center justify-content-center mr-5">
+          <img src="../../../assets/css3.svg" alt="" height="60" width="60" />
+        </div>
+        <h1 class="text-center mt-3">CSS</h1>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center">
+        <button mat-fab >
+          <mat-icon>download</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="col-3 common-card">
+      <div class=" d-flex align-items-center justify-content-center">
+        <div class="mt-3 d-flex align-items-center justify-content-center mr-5">
+          <img src="../../../assets/angular.svg" alt="" height="60" width="60" />
+        </div>
+        <h1 class="text-center mt-3">Angular</h1>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center">
+        <button mat-fab >
+          <mat-icon>download</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="col-3 common-card">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="mt-3 d-flex align-items-center justify-content-center mr-5">
+          <img src="../../../assets/node.svg" alt="" height="80" width="80" />
+        </div>
+        <h1 class="text-center mt-3">Node</h1>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center">
+        <button mat-fab >
+          <mat-icon>download</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="col-3 common-card">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="mt-3 d-flex align-items-center justify-content-center mr-5">
+          <img
+            src="../../../assets/java-script.png"
+            alt=""
+            height="60"
+            width="60"
+          />
+        </div>
+        <h1 class="text-center mt-3">JavaScript</h1>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center">
+        <button mat-fab >
+          <mat-icon>download</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="col-3 common-card">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="mt-3 d-flex align-items-center justify-content-center mr-5">
+          <img
+            src="../../../assets/Bootstrap_logo.svg.png"
+            alt=""
+            height="60"
+            width="80"
+          />
+        </div>
+        <h1 class="text-center mt-3">Bootstarp</h1>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center">
+        <button mat-fab  >
+          <mat-icon class="">download</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="mb-0 parent-body">
+    <div
+      class="declaration h-100 d-flex justify-content-center align-items-center flex-column"
+      *ngIf="showDeclaration"
+    >
+      <h1>{{ testDeclaration }} Rules And Guildelines</h1>
+      <div class="declaration-text d-flex flex-column">
+        <h2>Author: HP Code Genius</h2>
+        <h2>Date: {{ today }}</h2>
+        <h1>Technical Test Notice - HTML, CSS, Angular, and Node.js</h1>
+
+        <p>Dear [Candidate's Name],</p>
+
+        <p>
+          We are pleased to inform you that you have been shortlisted for the
+          technical test as part of the interview process for the [Job Title]
+          position at [Company Name]. The technical test will assess your skills
+          in HTML, CSS, Angular, and Node.js.
+        </p>
+
+        <h2>Test Instructions:</h2>
+
+        <ol>
+          <li>
+            <strong>Accessing the Test:</strong>
+            <p>
+              The test will be conducted online. You will receive a link to
+              access the test at the specified date and time.
+            </p>
+          </li>
+          <li>
+            <strong>Test Content:</strong>
+            <p>
+              The test will cover topics related to HTML, CSS, Angular, and
+              Node.js. Be prepared to demonstrate your knowledge and
+              problem-solving skills in these areas.
+            </p>
+          </li>
+          <li>
+            <strong>Tools and Environment:</strong>
+            <p>
+              You may use your preferred development environment and tools.
+              Ensure that you have a stable internet connection during the test.
+            </p>
+          </li>
+          <li>
+            <strong>Submission:</strong>
+            <p>
+              Once you complete the test, submit your code through the provided
+              platform before the designated deadline.
+            </p>
+          </li>
+          <li>
+            <strong>Evaluation Criteria:</strong>
+            <p>
+              Your code will be evaluated based on correctness, efficiency, code
+              structure, and adherence to best practices.
+            </p>
+          </li>
+        </ol>
+
+        <div class="m-2 mt-5">
+          <mat-checkbox class="example-margin">Check me!</mat-checkbox>
+          <span class="ml-2"> terms and conditions</span>
+        </div>
+        <div class="m-2">
+          <mat-checkbox class="example-margin">Check me!</mat-checkbox>
+          <span class="ml-2">
+            I accept the policy and have read all the information</span
+          >
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt-4">
+          <button
+            mat-raised-button
+            color="primary"
+            (click)="startTest(testDeclaration)"
+            style="width: 150px !important"
+          >
+            Proceed
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="!showDeclaration">
+      <div class="m-4" *ngIf="htmlTest" class="card-data">
+        <app-html></app-html>
+      </div>
+      <div class="m-4" *ngIf="cssTest" class="card-data">
+        <app-css></app-css>
+      </div>
+      <div class="m-4" *ngIf="angular" class="card-data">
+        <app-angular></app-angular>
+      </div>
+      <div class="m-4" *ngIf="nodeTest" class="card-data">
+        <app-node></app-node>
+      </div>
+      <div class="m-4" *ngIf="jsTest" class="card-data">
+        <app-js></app-js>
+      </div>
+    </div>
+  </div>
+</div>

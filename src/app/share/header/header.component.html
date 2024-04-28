@@ -1,0 +1,31 @@
+<p class="mb-0">
+    <mat-toolbar color="primary">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span> <img src="../../../assets//logo.jpg" alt="Logo" height="50" width="50" mat-button class="img-logo" [routerLink]="['/pages/dashboard']"></span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+      </button>
+      <button mat-button class="example-icon" aria-label="Example icon-button with share icon" (click)="contactUs()" *ngIf="isAuthenticated">
+        Contact US
+       </button>
+      <button mat-button class="example-icon" aria-label="Example icon-button with share icon" [routerLink]="['/onboarding/log-in']" *ngIf="!isAuthenticated">
+       Login
+      </button>
+      <button mat-button class="example-icon" aria-label="Example icon-button with share icon" [routerLink]="['/onboarding/sign-up']" *ngIf="!isAuthenticated">
+        Signup
+       </button>
+       <button mat-button class="example-icon" aria-label="Example icon-button with share icon" (click)="assessment()" *ngIf="isAuthenticated">
+        Assessment
+       </button>
+     
+       <button mat-button class="example-icon" aria-label="Example icon-button with share icon" (click)="logout()" *ngIf="isAuthenticated">
+        Logout
+       </button>
+    </mat-toolbar>
+  </p>

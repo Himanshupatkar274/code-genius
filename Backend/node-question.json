@@ -1,0 +1,459 @@
+[
+    {
+      "question": "What is Node.js?",
+      "firstOption": "A front-end JavaScript framework",
+      "secondOption": "A server-side JavaScript runtime environment",
+      "thirdOption": "A database management system",
+      "fourthOption": "A markup language",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the event-driven architecture of Node.js.",
+      "firstOption": "A synchronous execution model",
+      "secondOption": "A model where events trigger callbacks, allowing non-blocking, asynchronous execution",
+      "thirdOption": "A multi-threaded execution model",
+      "fourthOption": "A model that relies on polling for events",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How can you create a simple HTTP server in Node.js?",
+      "firstOption": "Using the 'http.createServer' method",
+      "secondOption": "Using the 'express' framework only",
+      "thirdOption": "By directly running JavaScript files",
+      "fourthOption": "By using the 'fs' module",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is npm?",
+      "firstOption": "Node.js Package Manager",
+      "secondOption": "Node Project Manager",
+      "thirdOption": "New Programming Module",
+      "fourthOption": "Node Package Module",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How do you install dependencies using npm?",
+      "firstOption": "npm install",
+      "secondOption": "npm add",
+      "thirdOption": "npm require",
+      "fourthOption": "npm attach",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of 'package.json' in a Node.js project?",
+      "firstOption": "To store metadata about the project",
+      "secondOption": "To define project dependencies",
+      "thirdOption": "To configure build scripts",
+      "fourthOption": "All of the above",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "How can you handle asynchronous operations in Node.js?",
+      "firstOption": "Using callbacks",
+      "secondOption": "Using Promises",
+      "thirdOption": "Using async/await",
+      "fourthOption": "All of the above",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the 'Event Loop' in Node.js?",
+      "firstOption": "A loop that iterates over an array of events",
+      "secondOption": "A mechanism for handling mouse and keyboard events",
+      "thirdOption": "A system that ensures the non-blocking, asynchronous execution of code by continuously checking the message queue",
+      "fourthOption": "A loop that runs continuously and prevents the execution of asynchronous code",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Explain the role of 'require' in Node.js.",
+      "firstOption": "A keyword for declaring variables",
+      "secondOption": "A method for importing modules in Node.js",
+      "thirdOption": "A function for creating objects",
+      "fourthOption": "A way to include HTML files",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of the 'fs' module in Node.js?",
+      "firstOption": "To handle file system operations",
+      "secondOption": "To manage the server configuration",
+      "thirdOption": "To perform mathematical operations",
+      "fourthOption": "To create and manage databases",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How can you handle routing in a Node.js application?",
+      "firstOption": "Using the 'express' framework",
+      "secondOption": "By defining routes manually in the application",
+      "thirdOption": "Using the 'url' module",
+      "fourthOption": "All of the above",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is 'middleware' in the context of Node.js?",
+      "firstOption": "Software that connects different hardware devices",
+      "secondOption": "Functions or modules that have access to the request and response objects and can modify them or terminate the request-response cycle",
+      "thirdOption": "A data type in JavaScript",
+      "fourthOption": "A method for handling HTTP requests",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How can you handle query parameters in a Node.js application?",
+      "firstOption": "By using the 'query' property of the request object",
+      "secondOption": "By parsing the URL using regular expressions",
+      "thirdOption": "By using the 'body-parser' middleware",
+      "fourthOption": "All of the above",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of the 'process' object in Node.js?",
+      "firstOption": "To manage database processes",
+      "secondOption": "To handle file system operations",
+      "thirdOption": "To provide information about, and control over, the current Node.js process",
+      "fourthOption": "To create child processes",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is 'npm init' used for?",
+      "firstOption": "To install npm packages",
+      "secondOption": "To initialize a new Node.js project and create a 'package.json' file",
+      "thirdOption": "To update npm to the latest version",
+      "fourthOption": "To uninstall npm packages",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of the 'module.exports' object in Node.js?",
+      "firstOption": "To export functions or objects from a module",
+      "secondOption": "To import functions or objects into a module",
+      "thirdOption": "To create a new module",
+      "fourthOption": "To define dependencies in a module",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How can you handle environment variables in a Node.js application?",
+      "firstOption": "By using the 'process.env' object",
+      "secondOption": "By defining variables in the 'package.json' file",
+      "thirdOption": "By using the 'dotenv' library",
+      "fourthOption": "All of the above",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is 'Nodemon' and how is it useful in Node.js development?",
+      "firstOption": "A tool for monitoring changes in the file system and automatically restarting the server",
+      "secondOption": "A built-in module in Node.js for handling HTTP requests",
+      "thirdOption": "A testing framework for Node.js applications",
+      "fourthOption": "A package manager for Node.js",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How can you handle errors in a Node.js application?",
+      "firstOption": "By using try/catch blocks",
+      "secondOption": "By using the 'error' event in the 'process' object",
+      "thirdOption": "By using the 'express' framework",
+      "fourthOption": "All of the above",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the difference between 'require' and 'import' in Node.js?",
+      "firstOption": "'require' is used for importing modules in CommonJS format, while 'import' is used for importing modules in ES6 format",
+      "secondOption": "'require' is used for importing external libraries, while 'import' is used for internal modules",
+      "thirdOption": "'require' and 'import' are interchangeable and can be used in the same context",
+      "fourthOption": "'require' is used for importing modules asynchronously, while 'import' is used synchronously",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Explain the concept of middleware in the context of Express.js.",
+      "firstOption": "Middleware refers to the data sent in the request body",
+      "secondOption": "Middleware are functions that have access to the request, response, and the next middleware function in the application's request-response cycle",
+      "thirdOption": "Middleware is a built-in module in Node.js",
+      "fourthOption": "Middleware are only used for handling errors in Express.js applications",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How can you handle file uploads in an Express.js application?",
+      "firstOption": "By using the 'body-parser' middleware",
+      "secondOption": "By sending files as JSON data in the request body",
+      "thirdOption": "By using the 'multer' middleware",
+      "fourthOption": "By directly accessing the files on the server",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the purpose of the 'cookie-parser' middleware in Express.js?",
+      "firstOption": "To parse incoming requests with JSON payloads",
+      "secondOption": "To parse and set cookies in the HTTP header",
+      "thirdOption": "To handle routing in Express.js applications",
+      "fourthOption": "To encrypt sensitive information in cookies",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the role of 'body-parser' middleware in Express.js.",
+      "firstOption": "To parse incoming requests with JSON payloads",
+      "secondOption": "To handle routing in Express.js applications",
+      "thirdOption": "To parse the HTML body of incoming requests",
+      "fourthOption": "To set cookies in the HTTP header",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How can you connect to a MongoDB database in a Node.js application?",
+      "firstOption": "By using the 'mongoose' library",
+      "secondOption": "By using the 'mongodb' driver",
+      "thirdOption": "By directly sending queries to the MongoDB server",
+      "fourthOption": "By using the 'express-mongo' middleware",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of the 'Express Router' in Express.js?",
+      "firstOption": "To handle routing for static files",
+      "secondOption": "To create modular route handlers and middleware",
+      "thirdOption": "To manage HTTP cookies",
+      "fourthOption": "To connect to a database",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'JWT' and how is it used for authentication in Node.js applications?",
+      "firstOption": "Java Web Token, a method for securing Java applications",
+      "secondOption": "JSON Web Token, a compact, URL-safe means of representing claims to be transferred between two parties",
+      "thirdOption": "JavaScript Web Token, a secure way of transferring JavaScript files",
+      "fourthOption": "A library for handling JSON data in Node.js",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'promise chaining' in Node.js and how it helps in managing asynchronous operations.",
+      "firstOption": "Promise chaining is a method for handling errors in asynchronous code",
+      "secondOption": "Promise chaining is a technique for executing multiple asynchronous operations sequentially by chaining promises together",
+      "thirdOption": "Promise chaining is used for parallel execution of asynchronous operations",
+      "fourthOption": "Promise chaining is a feature of the 'async/await' syntax",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of the 'Helmet' middleware in Express.js?",
+      "firstOption": "To secure web applications by setting various HTTP headers",
+      "secondOption": "To handle routing in Express.js applications",
+      "thirdOption": "To parse incoming requests with JSON payloads",
+      "fourthOption": "To manage HTTP cookies",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How can you handle authentication using Passport.js in an Express.js application?",
+      "firstOption": "By using the 'passport.authenticate' middleware",
+      "secondOption": "By directly accessing the user database",
+      "thirdOption": "By using the 'cookie-parser' middleware",
+      "fourthOption": "By defining authentication logic in the route handlers",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is 'WebSocket' and how can it be used in Node.js applications?",
+      "firstOption": "A communication protocol for creating real-time, bidirectional, and full-duplex communication channels",
+      "secondOption": "A method for handling HTTP requests in Node.js",
+      "thirdOption": "A library for handling JSON data in Node.js",
+      "fourthOption": "A way to connect to a MySQL database",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Explain the concept of 'middleware composition' in Express.js.",
+      "firstOption": "Middleware composition is a technique for combining multiple middleware functions into a single middleware function",
+      "secondOption": "Middleware composition is a method for handling errors in asynchronous code",
+      "thirdOption": "Middleware composition is used for creating responsive designs",
+      "fourthOption": "Middleware composition is a feature of the 'async/await' syntax",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How can you handle sessions in Express.js?",
+      "firstOption": "By using the 'express-session' middleware",
+      "secondOption": "By storing session data in cookies",
+      "thirdOption": "By using the 'cookie-parser' middleware",
+      "fourthOption": "By using the 'body-parser' middleware",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of the 'CORS' middleware in Express.js?",
+      "firstOption": "To handle routing for static files",
+      "secondOption": "To secure web applications by setting various HTTP headers",
+      "thirdOption": "To enable cross-origin resource sharing and allow or restrict access to resources on a different domain",
+      "fourthOption": "To manage HTTP cookies",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "How can you handle database migrations in a Node.js application?",
+      "firstOption": "By using the 'sequelize' library",
+      "secondOption": "By manually updating the database schema",
+      "thirdOption": "By creating a new database instance",
+      "fourthOption": "By using the 'body-parser' middleware",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of the 'morgan' middleware in Express.js?",
+      "firstOption": "To parse incoming requests with JSON payloads",
+      "secondOption": "To handle routing in Express.js applications",
+      "thirdOption": "To log HTTP requests and responses",
+      "fourthOption": "To manage HTTP cookies",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "How can you use environment variables to configure a Node.js application?",
+      "firstOption": "By using the 'process.env' object",
+      "secondOption": "By defining variables in the 'package.json' file",
+      "thirdOption": "By using the 'dotenv' library",
+      "fourthOption": "All of the above",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is 'Express.js' and how does it simplify web development in Node.js?",
+      "firstOption": "A database management system",
+      "secondOption": "A testing framework for Node.js applications",
+      "thirdOption": "A framework for building web applications and APIs with Node.js",
+      "fourthOption": "A communication protocol for creating real-time data transfer channels",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Explain the concept of 'microservices' and how Node.js is suitable for building microservices architectures.",
+      "firstOption": "Microservices is a design approach where an application is composed of small, independent services that communicate over a network",
+      "secondOption": "Node.js provides a lightweight, event-driven architecture, making it well-suited for building microservices that can scale and handle high concurrency",
+      "thirdOption": "Microservices can only be built using monolithic architectures",
+      "fourthOption": "Node.js is not suitable for building microservices",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is 'event sourcing' in the context of Node.js and how can it be implemented?",
+      "firstOption": "A technique for handling events in the DOM",
+      "secondOption": "Event sourcing is a pattern where state changes are captured as a series of events, providing a way to reconstruct the state of an application",
+      "thirdOption": "Event sourcing is only applicable to front-end development",
+      "fourthOption": "Event sourcing is a feature of the 'async/await' syntax",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the role of 'Docker' in Node.js development and how it facilitates containerization.",
+      "firstOption": "Docker is a version control system for Node.js projects",
+      "secondOption": "Docker is a platform for developing, shipping, and running applications in containers",
+      "thirdOption": "Docker is only used for front-end development",
+      "fourthOption": "Docker is a build tool for bundling and optimizing Node.js code",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'GraphQL' and how can it be used in a Node.js application?",
+      "firstOption": "GraphQL is a query language for APIs that allows clients to request only the data they need",
+      "secondOption": "GraphQL is a replacement for the 'npm' package manager",
+      "thirdOption": "GraphQL is only applicable to front-end development",
+      "fourthOption": "GraphQL is a build tool for optimizing Node.js code",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Explain the concept of 'caching' in Node.js and how it can improve the performance of web applications.",
+      "firstOption": "Caching is a technique for storing data temporarily in memory or on disk to reduce the time it takes to fetch the data",
+      "secondOption": "Caching is only applicable to front-end development",
+      "thirdOption": "Caching is a feature of the 'async/await' syntax",
+      "fourthOption": "Caching is a method for handling errors in asynchronous code",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of 'PM2' in Node.js development?",
+      "firstOption": "PM2 is a version control system for Node.js projects",
+      "secondOption": "PM2 is a process manager for Node.js applications, providing features like process monitoring, clustering, and automatic restarts",
+      "thirdOption": "PM2 is a testing framework for Node.js applications",
+      "fourthOption": "PM2 is a database management system",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'WebSockets' and how they can be used in a Node.js application for real-time communication.",
+      "firstOption": "WebSockets is a method for handling HTTP requests",
+      "secondOption": "WebSockets is a communication protocol that provides full-duplex communication channels over a single, long-lived connection",
+      "thirdOption": "WebSockets are only applicable to front-end development",
+      "fourthOption": "WebSockets are a feature of the 'async/await' syntax",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'serverless' architecture, and how can Node.js be used in serverless applications?",
+      "firstOption": "Serverless architecture is an approach where the infrastructure is managed by a cloud provider, and developers focus on writing code without managing servers",
+      "secondOption": "Serverless architecture is only applicable to front-end development",
+      "thirdOption": "Node.js cannot be used in serverless applications",
+      "fourthOption": "Serverless architecture is a replacement for the 'express' framework",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Explain the role of 'Nginx' in a Node.js application deployment.",
+      "firstOption": "Nginx is a version control system for Node.js projects",
+      "secondOption": "Nginx is a web server and reverse proxy server that can be used to improve the performance and scalability of a Node.js application",
+      "thirdOption": "Nginx is only used for front-end development",
+      "fourthOption": "Nginx is a testing framework for Node.js applications",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the 'Observer' pattern in the context of Node.js and how can it be implemented?",
+      "firstOption": "The Observer pattern is a design pattern where an object, known as the 'subject,' maintains a list of its dependents, called 'observers,' that are notified of any state changes",
+      "secondOption": "The Observer pattern is only applicable to front-end development",
+      "thirdOption": "The Observer pattern is a feature of the 'async/await' syntax",
+      "fourthOption": "The Observer pattern is a method for handling HTTP requests",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is 'JWT' and how is it used for authentication in a Node.js application?",
+      "firstOption": "Java Web Token, a method for securing Java applications",
+      "secondOption": "JSON Web Token, a compact, URL-safe means of representing claims to be transferred between two parties",
+      "thirdOption": "JavaScript Web Token, a secure way of transferring JavaScript files",
+      "fourthOption": "JWT is a testing framework for Node.js applications",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'load balancing' and how it can be achieved in a Node.js application.",
+      "firstOption": "Load balancing is a technique for optimizing the performance of front-end applications",
+      "secondOption": "Load balancing is a method for handling HTTP requests",
+      "thirdOption": "Load balancing is the distribution of incoming network traffic across multiple servers to ensure no single server is overwhelmed",
+      "fourthOption": "Load balancing is a feature of the 'async/await' syntax",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is 'AWS Lambda' and how can it be used with Node.js?",
+      "firstOption": "AWS Lambda is a database management system",
+      "secondOption": "AWS Lambda is a serverless computing service that lets you run your code without provisioning or managing servers",
+      "thirdOption": "AWS Lambda is only applicable to front-end development",
+      "fourthOption": "AWS Lambda is a replacement for the 'express' framework",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'WebSocket' and how it differs from traditional HTTP communication in Node.js.",
+      "firstOption": "WebSocket is a method for handling HTTP requests",
+      "secondOption": "WebSocket is a communication protocol that provides full-duplex communication channels over a single, long-lived connection, allowing for real-time data transfer",
+      "thirdOption": "WebSocket is only applicable to front-end development",
+      "fourthOption": "WebSocket is a feature of the 'async/await' syntax",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the 'Proxy' object in Node.js and how can it be used?",
+      "firstOption": "Proxy is a tool for managing database connections",
+      "secondOption": "Proxy is a design pattern where an object, known as the 'proxy,' controls access to another object, known as the 'subject'",
+      "thirdOption": "Proxy is a testing framework for Node.js applications",
+      "fourthOption": "Proxy is a method for handling HTTP requests",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'server-sent events' in Node.js and how they differ from WebSockets.",
+      "firstOption": "Server-sent events are a technique for creating real-time, bidirectional communication channels",
+      "secondOption": "Server-sent events are a one-way communication channel from the server to the client over a single HTTP connection",
+      "thirdOption": "Server-sent events are only applicable to front-end development",
+      "fourthOption": "Server-sent events are a feature of the 'async/await' syntax",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'Webpack' and how can it be used in a Node.js application?",
+      "firstOption": "Webpack is a testing framework for Node.js applications",
+      "secondOption": "Webpack is a build tool for bundling and optimizing front-end code",
+      "thirdOption": "Webpack is a database management system",
+      "fourthOption": "Webpack is a version control system for Node.js projects",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the concept of 'streaming' in Node.js and how it can be used for efficient data processing.",
+      "firstOption": "Streaming is a method for handling HTTP requests",
+      "secondOption": "Streaming is a technique for efficiently processing and transmitting data in chunks, reducing memory consumption",
+      "thirdOption": "Streaming is only applicable to front-end development",
+      "fourthOption": "Streaming is a feature of the 'async/await' syntax",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is 'gRPC' and how can it be used in a Node.js application for communication between microservices?",
+      "firstOption": "gRPC is a communication protocol that uses JSON as its data format",
+      "secondOption": "gRPC is a high-performance, open-source framework for remote procedure call (RPC) communication",
+      "thirdOption": "gRPC is only applicable to front-end development",
+      "fourthOption": "gRPC is a replacement for the 'express' framework",
+      "correctAnswer": "B"
+    }
+  ]
+  

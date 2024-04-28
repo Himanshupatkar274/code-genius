@@ -1,0 +1,459 @@
+[
+    {
+      "question": "What does CSS stand for?",
+      "firstOption": "Cascading Style Sheet",
+      "secondOption": "Creative Style Sheet",
+      "thirdOption": "Computer Style Sheet",
+      "fourthOption": "Colorful Style Sheet",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How do you select an element with the id 'example' in CSS?",
+      "firstOption": "#example",
+      "secondOption": ".example",
+      "thirdOption": "element.example",
+      "fourthOption": "id('example')",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of the 'box-sizing' property in CSS?",
+      "firstOption": "To define the width of an element",
+      "secondOption": "To include/exclude padding and border in the element's total width",
+      "thirdOption": "To set the box shadow of an element",
+      "fourthOption": "To apply a background image to an element",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How do you center an element horizontally in CSS?",
+      "firstOption": "text-align: center;",
+      "secondOption": "margin: auto;",
+      "thirdOption": "align: center;",
+      "fourthOption": "horizontal-align: center;",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of the 'float' property in CSS?",
+      "firstOption": "To make text wrap around an element",
+      "secondOption": "To create a transparent background",
+      "thirdOption": "To vertically center an element",
+      "fourthOption": "To change the font size of an element",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How do you apply multiple CSS styles to an element?",
+      "firstOption": "Using the 'styles' attribute",
+      "secondOption": "Using the 'merge-styles' property",
+      "thirdOption": "Separate each style with a semicolon",
+      "fourthOption": "Using the 'apply-styles' method",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the purpose of the 'z-index' property in CSS?",
+      "firstOption": "To set the width of an element",
+      "secondOption": "To define the stacking order of positioned elements",
+      "thirdOption": "To create a shadow effect",
+      "fourthOption": "To set the opacity of an element",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How do you apply a background color to an element in CSS?",
+      "firstOption": "color: #ffffff;",
+      "secondOption": "background-color: #ffffff;",
+      "thirdOption": "bgcolor: #ffffff;",
+      "fourthOption": "bg-color: #ffffff;",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of the 'display' property in CSS?",
+      "firstOption": "To set the background color of an element",
+      "secondOption": "To define the position of an element",
+      "thirdOption": "To specify whether an element is block or inline",
+      "fourthOption": "To apply a border to an element",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "How do you add comments in CSS?",
+      "firstOption": "// This is a comment",
+      "secondOption": "# This is a comment #",
+      "thirdOption": "/* This is a comment */",
+      "fourthOption": "' This is a comment '",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the purpose of the 'position' property in CSS?",
+      "firstOption": "To set the spacing between elements",
+      "secondOption": "To define the stacking order of positioned elements",
+      "thirdOption": "To create a shadow effect",
+      "fourthOption": "To change the font size of an element",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How do you change the text color of an element in CSS?",
+      "firstOption": "color: #000000;",
+      "secondOption": "text-color: #000000;",
+      "thirdOption": "foreground-color: #000000;",
+      "fourthOption": "font-color: #000000;",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of the 'border-radius' property in CSS?",
+      "firstOption": "To define the width of an element",
+      "secondOption": "To create rounded corners for an element",
+      "thirdOption": "To set the opacity of an element",
+      "fourthOption": "To vertically center an element",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How do you include an external CSS file in an HTML document?",
+      "firstOption": "<style src='styles.css'>",
+      "secondOption": "<link rel='stylesheet' href='styles.css'>",
+      "thirdOption": "<css href='styles.css'>",
+      "fourthOption": "<include style='styles.css'>",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of the 'opacity' property in CSS?",
+      "firstOption": "To set the background color of an element",
+      "secondOption": "To create a shadow effect",
+      "thirdOption": "To define the transparency of an element",
+      "fourthOption": "To change the font size of an element",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "How do you set the font size of an element in CSS?",
+      "firstOption": "text-size: 16px;",
+      "secondOption": "font-size: 16px;",
+      "thirdOption": "size: 16px;",
+      "fourthOption": "fontsize: 16px;",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the purpose of the 'margin' property in CSS?",
+      "firstOption": "To create space outside an element's border",
+      "secondOption": "To set the spacing between elements",
+      "thirdOption": "To define the transparency of an element",
+      "fourthOption": "To vertically center an element",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How do you apply a border to an element in CSS?",
+      "firstOption": "border: 1px solid #000000;",
+      "secondOption": "outline: 1px solid #000000;",
+      "thirdOption": "border-color: #000000;",
+      "fourthOption": "border-style: solid; border-width: 1px; border-color: #000000;",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of the 'text-align' property in CSS?",
+      "firstOption": "To set the width of an element",
+      "secondOption": "To create space outside an element's border",
+      "thirdOption": "To define the position of text within an element",
+      "fourthOption": "To apply a background color to an element",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "How do you remove underlines from hyperlinks in CSS?",
+      "firstOption": "a {text-decoration: underline;}",
+      "secondOption": "a {underline: none;}",
+      "thirdOption": "a {text-decoration: none;}",
+      "fourthOption": "a {decoration: none;}",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Explain the CSS box model and its components.",
+      "firstOption": "The box model is a way to design 3D elements on a webpage",
+      "secondOption": "The box model is a layout model that consists of content, padding, border, and margin",
+      "thirdOption": "The box model is used for creating flexible grids",
+      "fourthOption": "The box model is a feature for applying shadows to elements",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the difference between 'inline' and 'block' elements in CSS?",
+      "firstOption": "'Inline' elements stack horizontally, while 'block' elements stack vertically",
+      "secondOption": "'Inline' elements have no line breaks, while 'block' elements start on a new line and take up the full width available",
+      "thirdOption": "'Inline' elements are used for inline code, while 'block' elements are used for block-level code",
+      "fourthOption": "'Inline' elements are used for text formatting, while 'block' elements are used for layout",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the 'position' property values in CSS and their effects.",
+      "firstOption": "Static, relative, fixed, and absolute; each value defines the alignment of the element",
+      "secondOption": "Static, absolute, sticky, and relative; each value defines the positioning of the element",
+      "thirdOption": "Absolute, fixed, relative, and sticky; each value defines the positioning of the element",
+      "fourthOption": "Relative, absolute, static, and sticky; each value defines the stacking order of the element",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the CSS 'clearfix' hack, and why is it used?",
+      "firstOption": "The 'clearfix' hack is used to clear floats and ensure that elements following floated elements are properly positioned",
+      "secondOption": "The 'clearfix' hack is used to apply transparent backgrounds to elements",
+      "thirdOption": "The 'clearfix' hack is used to create rounded corners for elements",
+      "fourthOption": "The 'clearfix' hack is used to fix font rendering issues in specific browsers",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How does the CSS 'flexbox' layout work, and what are its main properties?",
+      "firstOption": "Flexbox is a layout model for block-level elements; its main properties include 'justify-content', 'align-items', and 'flex-direction'",
+      "secondOption": "Flexbox is a layout model for creating responsive grids; its main properties include 'grid-template-rows', 'grid-template-columns', and 'grid-gap'",
+      "thirdOption": "Flexbox is a layout model for box alignment; its main properties include 'align-content', 'align-self', and 'align-items'",
+      "fourthOption": "Flexbox is a layout model for creating flexible and efficient layouts; its main properties include 'flex-direction', 'justify-content', 'align-items', and more",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the CSS 'grid' layout, and how does it differ from 'flexbox'?",
+      "firstOption": "'Grid' layout is a layout model for block-level elements, while 'flexbox' is a layout model for inline elements",
+      "secondOption": "'Grid' layout is a layout model for creating responsive grids with rows and columns, while 'flexbox' is a layout model for one-dimensional layouts",
+      "thirdOption": "'Grid' layout is used for box alignment, while 'flexbox' is used for creating flexible and efficient layouts",
+      "fourthOption": "'Grid' layout is a layout model for creating two-dimensional layouts with rows and columns, while 'flexbox' is a layout model for one-dimensional layouts",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the CSS 'transition' property, and how does it work?",
+      "firstOption": "The 'transition' property is used to define the duration and timing function of CSS animations",
+      "secondOption": "The 'transition' property is used to create gradients in CSS",
+      "thirdOption": "The 'transition' property is used to apply transformations to elements",
+      "fourthOption": "The 'transition' property is used to apply filters to elements",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Explain the CSS 'pseudo-classes' and give examples of their usage.",
+      "firstOption": "Pseudo-classes are used to select and style elements based on their position in the DOM, such as :first-child and :last-child",
+      "secondOption": "Pseudo-classes are used to select and style elements based on user interaction, such as :hover and :focus",
+      "thirdOption": "Pseudo-classes are used to create animated effects in CSS",
+      "fourthOption": "Pseudo-classes are used to define custom styles for specific elements, such as :custom-class",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How does the 'box-shadow' property work in CSS, and what are its values?",
+      "firstOption": "'box-shadow' is used to create an outline around an element, and its values include 'color', 'width', and 'style'",
+      "secondOption": "'box-shadow' is used to add a drop shadow effect to an element, and its values include 'horizontal-offset', 'vertical-offset', 'blur-radius', 'spread-radius', and 'color'",
+      "thirdOption": "'box-shadow' is used to create a shadow under text, and its values include 'color', 'size', and 'blur'",
+      "fourthOption": "'box-shadow' is used to create rounded corners for an element, and its values include 'top-left-radius', 'top-right-radius', 'bottom-left-radius', and 'bottom-right-radius'",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the 'responsive design' in CSS, and how can it be achieved?",
+      "firstOption": "Responsive design is a design principle that focuses on creating designs for print media",
+      "secondOption": "Responsive design is a design principle that ensures a website layout adjusts to different screen sizes and devices",
+      "thirdOption": "Responsive design is a design principle that involves using a fixed layout for all devices",
+      "fourthOption": "Responsive design is a design principle that only applies to mobile devices",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the CSS 'media query', and how is it used in responsive design?",
+      "firstOption": "A 'media query' is used to apply a media player to a webpage",
+      "secondOption": "A 'media query' is used to define breakpoints in CSS for different screen sizes and apply different styles accordingly",
+      "thirdOption": "A 'media query' is used to create animations in CSS",
+      "fourthOption": "A 'media query' is used to define custom fonts for different devices",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the 'CSS specificity' and how it determines which styles are applied.",
+      "firstOption": "CSS specificity is a measure of the importance of a style declaration, and it is determined by the number of properties in the declaration",
+      "secondOption": "CSS specificity is a measure of the importance of a style declaration, and it is determined by the number of elements in the selector",
+      "thirdOption": "CSS specificity is a measure of the importance of a style declaration, and it is determined by the order of appearance in the stylesheet",
+      "fourthOption": "CSS specificity is a measure of the importance of a style declaration, and it is determined by the type of elements in the selector",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the CSS 'transform' property, and how is it used for element transformations?",
+      "firstOption": "'transform' is used to apply a shadow effect to an element",
+      "secondOption": "'transform' is used to define the position of an element",
+      "thirdOption": "'transform' is used to rotate, scale, skew, or translate an element in 2D or 3D space",
+      "fourthOption": "'transform' is used to create rounded corners for an element",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Explain the 'CSS flex container' and 'flex items' concepts in flexbox.",
+      "firstOption": "The flex container is the parent element, and flex items are the child elements inside it; flex items are positioned based on the container's dimensions",
+      "secondOption": "The flex container is a container for inline elements, and flex items are the block-level elements inside it; flex items are positioned based on the container's dimensions",
+      "thirdOption": "The flex container is the parent element, and flex items are the child elements inside it; flex items are positioned based on the content's dimensions",
+      "fourthOption": "The flex container is a container for inline elements, and flex items are the inline elements inside it; flex items are positioned based on the content's dimensions",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How do you implement a CSS grid system, and what are its advantages?",
+      "firstOption": "A CSS grid system is implemented by defining rows and columns using the 'grid-template-rows' and 'grid-template-columns' properties; its advantages include easy alignment and responsiveness",
+      "secondOption": "A CSS grid system is implemented by using the 'float' property; its advantages include simplicity and compatibility",
+      "thirdOption": "A CSS grid system is implemented by using the 'position' property; its advantages include flexibility and adaptability",
+      "fourthOption": "A CSS grid system is implemented by using the 'display' property; its advantages include simplicity and compatibility",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the purpose of the 'CSS pseudo-elements' and give examples of their usage.",
+      "firstOption": "Pseudo-elements are used to select and style elements based on their position in the DOM, such as :first-child and :last-child",
+      "secondOption": "Pseudo-elements are used to select and style parts of an element, such as ::before and ::after",
+      "thirdOption": "Pseudo-elements are used to create animated effects in CSS",
+      "fourthOption": "Pseudo-elements are used to define custom styles for specific elements, such as :custom-element",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the CSS 'overflow' property, and how can it be used to handle overflow content?",
+      "firstOption": "'overflow' is used to create a shadow effect for overflow content",
+      "secondOption": "'overflow' is used to define the visibility of overflow content",
+      "thirdOption": "'overflow' is used to specify what should happen if the content of an element is larger than the element's box",
+      "fourthOption": "'overflow' is used to hide all overflow content",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "How does the CSS 'position: sticky' property work, and what is its purpose?",
+      "firstOption": "'position: sticky' is used to define the position of an element relative to its normal position in the flow; it remains in the document flow until a specified scroll position is reached",
+      "secondOption": "'position: sticky' is used to create a sticky header at the top of the page",
+      "thirdOption": "'position: sticky' is used to create a fixed position element on the page",
+      "fourthOption": "'position: sticky' is used to create a rotating effect for an element",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "What is the CSS 'backface-visibility' property, and how does it affect 3D transformations?",
+      "firstOption": "'backface-visibility' is used to control the visibility of an element's back face in 3D space; it determines whether the back face is visible or hidden",
+      "secondOption": "'backface-visibility' is used to apply a shadow effect to an element",
+      "thirdOption": "'backface-visibility' is used to define the position of an element",
+      "fourthOption": "'backface-visibility' is used to create rounded corners for an element",
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Explain the concept of CSS custom properties (variables) and how they can be used.",
+      "firstOption": "CSS custom properties are used to define a set of predefined styles for specific elements",
+      "secondOption": "CSS custom properties are variables defined in CSS that can be reused throughout a stylesheet; they are declared with the '--' prefix",
+      "thirdOption": "CSS custom properties are used to define media queries for responsive design",
+      "fourthOption": "CSS custom properties are predefined styles for pseudo-elements",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the CSS 'will-change' property, and how does it impact performance?",
+      "firstOption": "'will-change' is used to apply a shadow effect to an element",
+      "secondOption": "'will-change' is used to declare that an element's properties are expected to change in the future, allowing browsers to optimize rendering performance",
+      "thirdOption": "'will-change' is used to create rounded corners for an element",
+      "fourthOption": "'will-change' is used to define the position of an element",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Explain the CSS 'counter' property and how it can be used to create numbered lists.",
+      "firstOption": "'counter' is used to define the position of an element",
+      "secondOption": "'counter' is used to create a shadow effect for an element",
+      "thirdOption": "'counter' is used to create and control automatic counters in CSS; it can be used to create numbered lists",
+      "fourthOption": "'counter' is used to define media queries for responsive design",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the purpose of the 'CSS filters' property, and give examples of its usage.",
+      "firstOption": "'CSS filters' are used to apply shadow effects to elements",
+      "secondOption": "'CSS filters' are used to create animations in CSS",
+      "thirdOption": "'CSS filters' are used to apply visual effects to elements, such as blur, brightness, and grayscale",
+      "fourthOption": "'CSS filters' are used to define media queries for responsive design",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Explain the 'CSS Grid Layout' and how it differs from traditional layout models.",
+      "firstOption": "CSS Grid Layout is a layout model for inline elements, and it differs from traditional layout models by providing more control over the placement of elements in both rows and columns",
+      "secondOption": "CSS Grid Layout is a layout model for creating flexible and efficient layouts, and it differs from traditional layout models by allowing for two-dimensional layouts with rows and columns",
+      "thirdOption": "CSS Grid Layout is a layout model for block-level elements, and it differs from traditional layout models by providing a simpler way to create responsive designs",
+      "fourthOption": "CSS Grid Layout is a layout model for creating responsive grids, and it differs from traditional layout models by using the 'flex' property for alignment",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the CSS 'shape-outside' property, and how can it be used to control text flow around an element?",
+      "firstOption": "'shape-outside' is used to create rounded corners for an element",
+      "secondOption": "'shape-outside' is used to define the position of an element",
+      "thirdOption": "'shape-outside' is used to control the flow of text around an element by defining a shape (such as a circle, ellipse, or polygon)",
+      "fourthOption": "'shape-outside' is used to apply a shadow effect to an element",
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the CSS 'contain' property, and how can it be used to optimize layout performance?",
+      "firstOption": "'contain' is used to create animations in CSS",
+      "secondOption": "'contain' is used to define media queries for responsive design",
+      "thirdOption": "'contain' is used to create rounded corners for an element",
+      "fourthOption": "'contain' is used to create a containment context for layout optimization by specifying what should be contained (e.g., layout, style, paint, or size)",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Explain the CSS 'clip-path' property and how it can be used to create complex shapes.",
+      "firstOption": "'clip-path' is used to create animations in CSS",
+      "secondOption": "'clip-path' is used to create a containment context for layout optimization",
+      "thirdOption": "'clip-path' is used to define the position of an element",
+      "fourthOption": "'clip-path' is used to create complex shapes by specifying a clipping region for an element",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the 'CSS ::before' and '::after' pseudo-elements, and how can they be used?",
+      "firstOption": "::before' and '::after' are used to create custom styles for specific elements",
+      "secondOption": "::before' and '::after' are used to create animated effects in CSS",
+      "thirdOption": "::before' and '::after' are used to select and style parts of an element",
+      "fourthOption": "::before' and '::after' are used to insert content before and after an element's actual content, providing a way to insert decorative or additional content",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Explain the CSS 'mask' property and how it can be used for image masking.",
+      "firstOption": "'mask' is used to create animations in CSS",
+      "secondOption": "'mask' is used to apply visual effects to elements, such as blur and brightness",
+      "thirdOption": "'mask' is used to create rounded corners for an element",
+      "fourthOption": "'mask' is used for image masking by defining a mask image or gradient that specifies where the content is visible and where it is transparent",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the CSS 'mix-blend-mode' property, and how can it be used to blend elements with their background?",
+      "firstOption": "'mix-blend-mode' is used to create animations in CSS",
+      "secondOption": "'mix-blend-mode' is used to apply visual effects to elements, such as blur and brightness",
+      "thirdOption": "'mix-blend-mode' is used to create rounded corners for an element",
+      "fourthOption": "'mix-blend-mode' is used to specify how an element's content should blend with its background, allowing for various blending modes such as 'multiply', 'screen', and 'overlay'",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the CSS 'writing-mode' property, and how can it be used to define the direction of text?",
+      "firstOption": "'writing-mode' is used to create animations in CSS",
+      "secondOption": "'writing-mode' is used to apply visual effects to elements, such as blur and brightness",
+      "thirdOption": "'writing-mode' is used to define the position of an element",
+      "fourthOption": "'writing-mode' is used to specify the direction of the inline progression of text, allowing for vertical text layouts",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Explain the 'CSS aspect-ratio' property and how it can be used to maintain the aspect ratio of elements.",
+      "firstOption": "'aspect-ratio' is used to create animations in CSS",
+      "secondOption": "'aspect-ratio' is used to apply visual effects to elements, such as blur and brightness",
+      "thirdOption": "'aspect-ratio' is used to define the position of an element",
+      "fourthOption": "'aspect-ratio' is used to maintain the aspect ratio of elements by specifying a width-to-height ratio",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the CSS 'line-clamp' property, and how can it be used to truncate multiline text with an ellipsis?",
+      "firstOption": "'line-clamp' is used to create animations in CSS",
+      "secondOption": "'line-clamp' is used to apply visual effects to elements, such as blur and brightness",
+      "thirdOption": "'line-clamp' is used to define the position of an element",
+      "fourthOption": "'line-clamp' is used to truncate multiline text with an ellipsis by specifying the maximum number of lines to display",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Explain the CSS 'variable fonts' and how they provide flexibility in typography.",
+      "firstOption": "'Variable fonts' are used to create animations in CSS",
+      "secondOption": "'Variable fonts' are used to apply visual effects to elements, such as blur and brightness",
+      "thirdOption": "'Variable fonts' are used to define the position of an element",
+      "fourthOption": "'Variable fonts' are fonts that provide flexibility in typography by allowing a single font file to contain multiple variations of weight, width, and other attributes",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the CSS 'currentColor' keyword, and how can it be used in stylesheets?",
+      "firstOption": "'currentColor' is used to create animations in CSS",
+      "secondOption": "'currentColor' is used to apply visual effects to elements, such as blur and brightness",
+      "thirdOption": "'currentColor' is used to define the position of an element",
+      "fourthOption": "'currentColor' is a keyword that can be used in stylesheets to represent the computed value of the 'color' property, providing a way to inherit and maintain the current text color",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Explain the CSS 'scroll-snap' property and how it can be used for scroll snapping.",
+      "firstOption": "'scroll-snap' is used to create animations in CSS",
+      "secondOption": "'scroll-snap' is used to apply visual effects to elements, such as blur and brightness",
+      "thirdOption": "'scroll-snap' is used to define the position of an element",
+      "fourthOption": "'scroll-snap' is used for scroll snapping, allowing for smooth and precise scrolling to specific points in a container",
+      "correctAnswer": "D"
+    },
+    {
+      "question": "What is the purpose of the 'CSS Houdini' and how can it be used to extend CSS capabilities?",
+      "firstOption": "'CSS Houdini' is used to create animations in CSS",
+      "secondOption": "'CSS Houdini' is used to apply visual effects to elements, such as blur and brightness",
+      "thirdOption": "'CSS Houdini' is used to define the position of an element",
+      "fourthOption": "'CSS Houdini' is a set of APIs that allow developers to extend CSS capabilities by hooking into the rendering pipeline, enabling the creation of custom layout, paint, and animation features",
+      "correctAnswer": "D"
+    }
+  ]
+  

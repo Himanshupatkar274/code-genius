@@ -1,0 +1,113 @@
+.mat-toolbar.mat-primary {
+    --mat-toolbar-container-background-color: #198754 !important;
+    height: 60px !important;
+    color: #e9e4e4 !important;
+}
+
+.mat-button {
+    font-size: 18px !important;
+    padding: 12px 24px !important;
+    /* Add any other styling you want to customize the button size */
+  }
+
+  .mat-mdc-button:not(:disabled) .mat-mdc-raised-button:not(:disabled) {
+    width: 200px !important;
+  }
+  .sub-parent-nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+.parent-nav {
+  /* Using a single background image */
+  background-image: url('../../../assets/pexels-gül-işık-2293019.jpg');
+    /* Controlling background size */
+    background-size: cover; /* or contain, auto, etc. */
+    
+    /* Controlling background position */
+    background-position: center center; /* or specific coordinates */
+    
+    /* Controlling background repeat */
+    background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat, etc. */
+    
+    /* Controlling background attachment */
+    background-attachment: fixed; /* or scroll */
+}
+  .parent-body{
+    position: relative;
+    height: calc(100vh - 40px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #cfe2ff;
+    z-index: 0;
+      /* Using a single background image */
+  background-image: url('../../../assets/pexels-andrea-piacquadio-927451.jpg');
+  /* Controlling background size */
+  background-size: cover; /* or contain, auto, etc. */
+  
+  /* Controlling background position */
+  background-position: center center; /* or specific coordinates */
+  
+  /* Controlling background repeat */
+  background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat, etc. */
+  
+  /* Controlling background attachment */
+  background-attachment: fixed; /* or scroll */
+   }
+   .declaration{
+    background-color: #fff;
+    color: #585858;
+   }
+
+   .declaration-text {
+    line-height: 1.6;
+}
+ul li {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+
+
+
+.card-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 48px;
+  height: 75vh;
+  background-color: #cdbebe75;
+  box-shadow: 20px 20px 20px 20px #62717629;
+}
+
+.common-card{
+  background-color: white;
+  box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.04);
+  color: black;
+  margin: 48px;
+  padding:24px;
+  border-radius: 8px;
+  transition: transform 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+ 
+}
+.common-card:hover{
+background-color: rgba(134, 134, 214, 0.976);
+transform: translateY(-30px);
+cursor: pointer;
+animation-name: example;
+animation-duration: 8s;
+}
+@keyframes example {
+  from {background-color: rgba(187, 0, 255, 0.883);}
+  to {background-color: rgba(255, 179, 0, 0.854);}
+}
+.paraBold{
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 18px;
+}

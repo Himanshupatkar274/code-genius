@@ -1,0 +1,409 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "firstOption": "Hyper Transfer Markup Language",
+    "secondOption": "Hyper Text Markup Language",
+    "thirdOption": "Hyperlink and Text Markup Language",
+    "fourthOption": "High-Level Text Markup Language",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list?",
+    "firstOption": "<ol>",
+    "secondOption": "<ul>",
+    "thirdOption": "<li>",
+    "fourthOption": "<list>",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "What is the purpose of the HTML 'alt' attribute in the 'img' tag?",
+    "firstOption": "Alternative text for the image",
+    "secondOption": "Alignment of the image",
+    "thirdOption": "Altitude of the image",
+    "fourthOption": "Animated text for the image",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "firstOption": "<link>",
+    "secondOption": "<hyperlink>",
+    "thirdOption": "<a>",
+    "fourthOption": "<url>",
+    "correctAnswer": "C"
+  },
+  {
+    "question": "In HTML, which tag is used for creating a table?",
+    "firstOption": "<table>",
+    "secondOption": "<tab>",
+    "thirdOption": "<tr>",
+    "fourthOption": "<td>",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "What does the 'doctype' declaration in HTML do?",
+    "firstOption": "Defines the document type and version",
+    "secondOption": "Specifies the title of the document",
+    "thirdOption": "Declares a new document",
+    "fourthOption": "Sets the document background color",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Which HTML tag is used for creating an ordered list?",
+    "firstOption": "<ol>",
+    "secondOption": "<ul>",
+    "thirdOption": "<li>",
+    "fourthOption": "<list>",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "What is the purpose of the HTML 'meta' tag?",
+    "firstOption": "Defines metadata about the HTML document",
+    "secondOption": "Creates a new paragraph",
+    "thirdOption": "Specifies a meta-language for the document",
+    "fourthOption": "Sets the document encoding",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Which attribute is used to define inline styles in HTML?",
+    "firstOption": "style",
+    "secondOption": "css",
+    "thirdOption": "design",
+    "fourthOption": "format",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "What does the acronym CSS stand for?",
+    "firstOption": "Counter Style Sheet",
+    "secondOption": "Computer Style Sheet",
+    "thirdOption": "Cascading Style Sheet",
+    "fourthOption": "Creative Style Sheet",
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Which HTML tag is used for creating a line break?",
+    "firstOption": "<br>",
+    "secondOption": "<lb>",
+    "thirdOption": "<newline>",
+    "fourthOption": "<break>",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "What is the purpose of the HTML 'form' element?",
+    "firstOption": "Defines a section in a document",
+    "secondOption": "Creates a table",
+    "thirdOption": "Represents a user input form",
+    "fourthOption": "Sets the font style",
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Which attribute is used to specify the source URL of an iframe in HTML?",
+    "firstOption": "href",
+    "secondOption": "source",
+    "thirdOption": "url",
+    "fourthOption": "src",
+    "correctAnswer": "D"
+  },
+  {
+    "question": "What is the purpose of the HTML 'span' tag?",
+    "firstOption": "Defines a hyperlink",
+    "secondOption": "Represents a block of code",
+    "thirdOption": "Specifies a division or a section in an HTML document",
+    "fourthOption": "Used for styling a specific part of text",
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Which HTML tag is used to define the header of a document or a section?",
+    "firstOption": "<head>",
+    "secondOption": "<header>",
+    "thirdOption": "<h1>",
+    "fourthOption": "<title>",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "What is the purpose of the HTML 'aside' element?",
+    "firstOption": "Defines additional content that is tangentially related to the content around it",
+    "secondOption": "Creates a sidebar",
+    "thirdOption": "Represents a footer",
+    "fourthOption": "Specifies a block of code",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Which attribute is used to specify the alternative text for an image in HTML?",
+    "firstOption": "alt",
+    "secondOption": "text",
+    "thirdOption": "description",
+    "fourthOption": "title",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "In HTML, which tag is used for creating a hyperlink to another webpage?",
+    "firstOption": "<link>",
+    "secondOption": "<hyperlink>",
+    "thirdOption": "<a>",
+    "fourthOption": "<url>",
+    "correctAnswer": "C"
+  },
+  {
+    "question": "What is the purpose of the HTML 'cite' tag?",
+    "firstOption": "Specifies a citation",
+    "secondOption": "Defines a section in a document",
+    "thirdOption": "Represents a code element",
+    "fourthOption": "Sets the font size",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Which HTML tag is used for creating a horizontal rule or line?",
+    "firstOption": "<line>",
+    "secondOption": "<hr>",
+    "thirdOption": "<rule>",
+    "fourthOption": "<horizontal>",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "What does the HTML acronym 'API' stand for?",
+    "firstOption": "Application Programming Interface",
+    "secondOption": "Advanced Programming Interface",
+    "thirdOption": "Automated Programming Interface",
+    "fourthOption": "Application Protocol Interface",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Which attribute is used to set the text alignment in HTML?",
+    "firstOption": "align",
+    "secondOption": "text-align",
+    "thirdOption": "alignment",
+    "fourthOption": "text-aligning",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "What does the HTML 'DOCTYPE' declaration do?",
+    "firstOption": "Declares a new document",
+    "secondOption": "Specifies the document's character encoding",
+    "thirdOption": "Defines the document type and version",
+    "fourthOption": "Sets the document's background color",
+    "correctAnswer": "C"
+  },
+  {
+    "question": "In HTML, which tag is used for creating a hyperlink without an underline?",
+    "firstOption": "<link>",
+    "secondOption": "<a>",
+    "thirdOption": "<url>",
+    "fourthOption": "<hyperlink>",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "What is the purpose of the HTML 'figcaption' element?",
+    "firstOption": "Defines a figure",
+    "secondOption": "Specifies a caption for a <figure> element",
+    "thirdOption": "Represents a block of code",
+    "fourthOption": "Sets the figure's background color",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Which HTML tag is used for creating a superscript text?",
+    "firstOption": "<sub>",
+    "secondOption": "<super>",
+    "thirdOption": "<sup>",
+    "fourthOption": "<script>",
+    "correctAnswer": "C"
+  },
+  {
+    "question": "What is the purpose of the HTML 'abbr' tag?",
+    "firstOption": "Represents an abbreviation or acronym",
+    "secondOption": "Defines a section in a document",
+    "thirdOption": "Specifies a block of code",
+    "fourthOption": "Sets the font style",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Which attribute is used to define the text direction in HTML?",
+    "firstOption": "dir",
+    "secondOption": "text-dir",
+    "thirdOption": "direction",
+    "fourthOption": "text-direction",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "In HTML, which tag is used for creating a subscript text?",
+    "firstOption": "<sub>",
+    "secondOption": "<super>",
+    "thirdOption": "<sup>",
+    "fourthOption": "<script>",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "What is the purpose of the HTML 'blockquote' tag?",
+    "firstOption": "Defines a block-level quotation",
+    "secondOption": "Represents a sidebar",
+    "thirdOption": "Creates a new paragraph",
+    "fourthOption": "Sets the block's background color",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Which HTML attribute is used to define the language of the content in a <script> element?",
+    "firstOption": "language",
+    "secondOption": "lang",
+    "thirdOption": "script-lang",
+    "fourthOption": "content-lang",
+    "correctAnswer": "B"
+  }, {
+    "question": "What is the purpose of the HTML 'progress' element?",
+    "firstOption": "Defines a progress bar",
+    "secondOption": "Creates a new paragraph",
+    "thirdOption": "Represents a block of code",
+    "fourthOption": "Specifies a block-level quotation",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "In HTML, which tag is used to embed audio content?",
+    "firstOption": "<audio>",
+    "secondOption": "<sound>",
+    "thirdOption": "<music>",
+    "fourthOption": "<media>",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "What does the HTML 'accesskey' attribute do?",
+    "firstOption": "Defines keyboard shortcuts for an element",
+    "secondOption": "Specifies the access level of an element",
+    "thirdOption": "Creates a new paragraph",
+    "fourthOption": "Sets the font style",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Which HTML tag is used to create a dropdown list?",
+    "firstOption": "<list>",
+    "secondOption": "<select>",
+    "thirdOption": "<dropdown>",
+    "fourthOption": "<options>",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "What is the purpose of the HTML 'canvas' element?",
+    "firstOption": "Defines a figure",
+    "secondOption": "Represents a canvas for drawing graphics",
+    "thirdOption": "Specifies a caption for a <figure> element",
+    "fourthOption": "Sets the figure's background color",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Which HTML tag is used for creating an input field for entering a date?",
+    "firstOption": "<date>",
+    "secondOption": "<input type='date'>",
+    "thirdOption": "<textfield>",
+    "fourthOption": "<datetime>",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "What does the HTML 'placeholder' attribute do in an input field?",
+    "firstOption": "Specifies the input type",
+    "secondOption": "Defines a default value for the input field",
+    "thirdOption": "Sets the font color",
+    "fourthOption": "Creates a hint for the user",
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Which HTML tag is used to define the structure of an HTML document, including headings and paragraphs?",
+    "firstOption": "<body>",
+    "secondOption": "<section>",
+    "thirdOption": "<header>",
+    "fourthOption": "<article>",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "In HTML, what does the 'nowrap' attribute do in a table cell?",
+    "firstOption": "Forces text to remain on a single line",
+    "secondOption": "Defines the text alignment",
+    "thirdOption": "Specifies the column span",
+    "fourthOption": "Sets the border color",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Which HTML tag is used for creating a button?",
+    "firstOption": "<button>",
+    "secondOption": "<click>",
+    "thirdOption": "<submit>",
+    "fourthOption": "<input type='button'>",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "What is the purpose of the HTML 'hr' tag?",
+    "firstOption": "Creates a hyperlink",
+    "secondOption": "Defines the header of a document",
+    "thirdOption": "Represents a horizontal rule or line",
+    "fourthOption": "Specifies the document encoding",
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Which HTML attribute is used to specify the width of an image?",
+    "firstOption": "size",
+    "secondOption": "width",
+    "thirdOption": "height",
+    "fourthOption": "style",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "In HTML, which tag is used for creating an ordered list with lowercase Roman numerals?",
+    "firstOption": "<ol type='roman'>",
+    "secondOption": "<ol style='roman'>",
+    "thirdOption": "<ol>",
+    "fourthOption": "<ol type='I'>",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "What is the purpose of the HTML 'article' element?",
+    "firstOption": "Defines a section in a document",
+    "secondOption": "Represents an article or blog post",
+    "thirdOption": "Creates a table",
+    "fourthOption": "Specifies a block of code",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Which HTML tag is used for creating a hyperlink to send an email?",
+    "firstOption": "<mail>",
+    "secondOption": "<a href='mailto:'>",
+    "thirdOption": "<email>",
+    "fourthOption": "<link>",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "In HTML, which tag is used for creating an unordered list with square bullets?",
+    "firstOption": "<ul>",
+    "secondOption": "<ol type='square'>",
+    "thirdOption": "<li style='square'>",
+    "fourthOption": "<list>",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "What is the purpose of the HTML 'figcaption' element?",
+    "firstOption": "Defines a figure",
+    "secondOption": "Specifies a caption for a <figure> element",
+    "thirdOption": "Represents a block of code",
+    "fourthOption": "Sets the figure's background color",
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Which HTML tag is used for creating a superscript text?",
+    "firstOption": "<sub>",
+    "secondOption": "<super>",
+    "thirdOption": "<sup>",
+    "fourthOption": "<script>",
+    "correctAnswer": "C"
+  },
+  {
+    "question": "What is the purpose of the HTML 'abbr' tag?",
+    "firstOption": "Represents an abbreviation or acronym",
+    "secondOption": "Defines a section in a document",
+    "thirdOption": "Specifies a block of code",
+    "fourthOption": "Sets the font style",
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Which attribute is used to define the text direction in HTML?",
+    "firstOption": "dir",
+    "secondOption": "text-dir",
+    "thirdOption": "direction",
+    "fourthOption": "text-direction",
+    "correctAnswer": "A"
+  }
+]
